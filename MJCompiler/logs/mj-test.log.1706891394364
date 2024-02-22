@@ -1,0 +1,377 @@
+INFO  17:05:08,414 - Compiling source file: C:\projekat\workspace\MJCompiler\test\program.mj
+INFO  17:05:08,470 - #2 program
+INFO  17:05:08,470 - #45 MJProgram
+INFO  17:05:08,470 - #45 int
+INFO  17:05:08,472 - #45 x
+INFO  17:05:08,472 - #9 ,
+INFO  17:05:08,472 - #45 y
+INFO  17:05:08,472 - #8 ;
+INFO  17:05:08,473 - #3 {
+INFO  17:05:08,474 - #45 int
+INFO  17:05:08,475 - #45 k
+INFO  17:05:08,475 - #13 (
+INFO  17:05:08,476 - #14 )
+INFO  17:05:08,478 - #45 int
+INFO  17:05:08,480 - #45 c
+INFO  17:05:08,480 - #8 ;
+INFO  17:05:08,480 - #3 {
+INFO  17:05:08,480 - #45 c
+INFO  17:05:08,482 - #7 =
+INFO  17:05:08,482 - #46 2
+INFO  17:05:08,485 - #8 ;
+INFO  17:05:08,489 - #20 print
+INFO  17:05:08,489 - #13 (
+INFO  17:05:08,489 - #46 0
+INFO  17:05:08,490 - #14 )
+INFO  17:05:08,490 - #8 ;
+INFO  17:05:08,490 - #18 return
+INFO  17:05:08,490 - #45 c
+INFO  17:05:08,490 - #27 +
+INFO  17:05:08,490 - #46 2
+INFO  17:05:08,491 - #8 ;
+INFO  17:05:08,492 - #4 }
+INFO  17:05:08,492 - #45 int
+INFO  17:05:08,492 - #45 main
+INFO  17:05:08,492 - #13 (
+INFO  17:05:08,492 - #14 )
+INFO  17:05:08,492 - #3 {
+INFO  17:05:08,492 - #45 x
+INFO  17:05:08,492 - #7 =
+INFO  17:05:08,492 - #46 3
+INFO  17:05:08,493 - #8 ;
+INFO  17:05:08,493 - #20 print
+INFO  17:05:08,493 - #13 (
+INFO  17:05:08,493 - #45 x
+INFO  17:05:08,493 - #14 )
+INFO  17:05:08,493 - #8 ;
+INFO  17:05:08,493 - #20 print
+INFO  17:05:08,493 - #13 (
+INFO  17:05:08,493 - #46 2
+INFO  17:05:08,493 - #14 )
+INFO  17:05:08,493 - #8 ;
+INFO  17:05:08,493 - #45 x
+INFO  17:05:08,493 - #7 =
+INFO  17:05:08,494 - #45 k
+INFO  17:05:08,494 - #13 (
+INFO  17:05:08,494 - #14 )
+INFO  17:05:08,494 - #24 *
+INFO  17:05:08,494 - #46 2
+INFO  17:05:08,495 - #27 +
+INFO  17:05:08,496 - #46 3
+INFO  17:05:08,496 - #8 ;
+INFO  17:05:08,496 - #20 print
+INFO  17:05:08,496 - #13 (
+INFO  17:05:08,496 - #45 x
+INFO  17:05:08,496 - #27 +
+INFO  17:05:08,496 - #46 2
+INFO  17:05:08,496 - #14 )
+INFO  17:05:08,496 - #8 ;
+INFO  17:05:08,496 - #18 return
+INFO  17:05:08,496 - #46 0
+INFO  17:05:08,497 - #8 ;
+INFO  17:05:08,497 - #4 }
+INFO  17:05:08,497 - #4 }
+INFO  17:05:08,504 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  NoNamespaces(
+  ) [NoNamespaces]
+  Decls(
+    NoDecls(
+    ) [NoDecls]
+    VarDeclaration(
+      VariableDecl(
+        TypeWithoutScopeResolution(
+         int
+        ) [TypeWithoutScopeResolution]
+        VarDecls(
+          SignleVarDecl(
+            Var(
+             x
+            ) [Var]
+          ) [SignleVarDecl]
+          Var(
+           y
+          ) [Var]
+        ) [VarDecls]
+      ) [VariableDecl]
+    ) [VarDeclaration]
+  ) [Decls]
+  MethodDecls(
+    MethodDecls(
+      NoMethods(
+      ) [NoMethods]
+      MethodDeclaration(
+        TypedMethod(
+          TypeWithoutScopeResolution(
+           int
+          ) [TypeWithoutScopeResolution]
+         k
+        ) [TypedMethod]
+        WithoutFormParams(
+        ) [WithoutFormParams]
+        FormParsEnd(
+        ) [FormParsEnd]
+        OptionalVarDecls(
+          NoOptionalVarDecls(
+          ) [NoOptionalVarDecls]
+          VariableDecl(
+            TypeWithoutScopeResolution(
+             int
+            ) [TypeWithoutScopeResolution]
+            SignleVarDecl(
+              Var(
+               c
+              ) [Var]
+            ) [SignleVarDecl]
+          ) [VariableDecl]
+        ) [OptionalVarDecls]
+        Statements(
+          Statements(
+            Statements(
+              NoStatements(
+              ) [NoStatements]
+              DesignatorStatementClass(
+                AssignValue(
+                  DesignatorWithoutScopeResolution(
+                   c
+                  ) [DesignatorWithoutScopeResolution]
+                  Assign(
+                  ) [Assign]
+                  ExprWithoutMinus(
+                    Term(
+                      NoMulFactor(
+                        FactorNumConst(
+                         2
+                        ) [FactorNumConst]
+                      ) [NoMulFactor]
+                    ) [Term]
+                    NoAddOpTerm(
+                    ) [NoAddOpTerm]
+                  ) [ExprWithoutMinus]
+                ) [AssignValue]
+              ) [DesignatorStatementClass]
+            ) [Statements]
+            PrintStatementWithoutNumConst(
+              ExprWithoutMinus(
+                Term(
+                  NoMulFactor(
+                    FactorNumConst(
+                     0
+                    ) [FactorNumConst]
+                  ) [NoMulFactor]
+                ) [Term]
+                NoAddOpTerm(
+                ) [NoAddOpTerm]
+              ) [ExprWithoutMinus]
+            ) [PrintStatementWithoutNumConst]
+          ) [Statements]
+          ReturnStatementWithExpr(
+            ExprWithoutMinus(
+              Term(
+                NoMulFactor(
+                  FactorVariable(
+                    DesignatorWithoutScopeResolution(
+                     c
+                    ) [DesignatorWithoutScopeResolution]
+                  ) [FactorVariable]
+                ) [NoMulFactor]
+              ) [Term]
+              AddOpTerm(
+                NoAddOpTerm(
+                ) [NoAddOpTerm]
+                Plus(
+                ) [Plus]
+                Term(
+                  NoMulFactor(
+                    FactorNumConst(
+                     2
+                    ) [FactorNumConst]
+                  ) [NoMulFactor]
+                ) [Term]
+              ) [AddOpTerm]
+            ) [ExprWithoutMinus]
+          ) [ReturnStatementWithExpr]
+        ) [Statements]
+      ) [MethodDeclaration]
+    ) [MethodDecls]
+    MethodDeclaration(
+      TypedMethod(
+        TypeWithoutScopeResolution(
+         int
+        ) [TypeWithoutScopeResolution]
+       main
+      ) [TypedMethod]
+      WithoutFormParams(
+      ) [WithoutFormParams]
+      FormParsEnd(
+      ) [FormParsEnd]
+      NoOptionalVarDecls(
+      ) [NoOptionalVarDecls]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  NoStatements(
+                  ) [NoStatements]
+                  DesignatorStatementClass(
+                    AssignValue(
+                      DesignatorWithoutScopeResolution(
+                       x
+                      ) [DesignatorWithoutScopeResolution]
+                      Assign(
+                      ) [Assign]
+                      ExprWithoutMinus(
+                        Term(
+                          NoMulFactor(
+                            FactorNumConst(
+                             3
+                            ) [FactorNumConst]
+                          ) [NoMulFactor]
+                        ) [Term]
+                        NoAddOpTerm(
+                        ) [NoAddOpTerm]
+                      ) [ExprWithoutMinus]
+                    ) [AssignValue]
+                  ) [DesignatorStatementClass]
+                ) [Statements]
+                PrintStatementWithoutNumConst(
+                  ExprWithoutMinus(
+                    Term(
+                      NoMulFactor(
+                        FactorVariable(
+                          DesignatorWithoutScopeResolution(
+                           x
+                          ) [DesignatorWithoutScopeResolution]
+                        ) [FactorVariable]
+                      ) [NoMulFactor]
+                    ) [Term]
+                    NoAddOpTerm(
+                    ) [NoAddOpTerm]
+                  ) [ExprWithoutMinus]
+                ) [PrintStatementWithoutNumConst]
+              ) [Statements]
+              PrintStatementWithoutNumConst(
+                ExprWithoutMinus(
+                  Term(
+                    NoMulFactor(
+                      FactorNumConst(
+                       2
+                      ) [FactorNumConst]
+                    ) [NoMulFactor]
+                  ) [Term]
+                  NoAddOpTerm(
+                  ) [NoAddOpTerm]
+                ) [ExprWithoutMinus]
+              ) [PrintStatementWithoutNumConst]
+            ) [Statements]
+            DesignatorStatementClass(
+              AssignValue(
+                DesignatorWithoutScopeResolution(
+                 x
+                ) [DesignatorWithoutScopeResolution]
+                Assign(
+                ) [Assign]
+                ExprWithoutMinus(
+                  Term(
+                    MulFactor(
+                      NoMulFactor(
+                        Function(
+                          DesignatorWithoutScopeResolution(
+                           k
+                          ) [DesignatorWithoutScopeResolution]
+                          CallWithoutActPars(
+                            CallStart(
+                            ) [CallStart]
+                          ) [CallWithoutActPars]
+                        ) [Function]
+                      ) [NoMulFactor]
+                      Mul(
+                      ) [Mul]
+                      FactorNumConst(
+                       2
+                      ) [FactorNumConst]
+                    ) [MulFactor]
+                  ) [Term]
+                  AddOpTerm(
+                    NoAddOpTerm(
+                    ) [NoAddOpTerm]
+                    Plus(
+                    ) [Plus]
+                    Term(
+                      NoMulFactor(
+                        FactorNumConst(
+                         3
+                        ) [FactorNumConst]
+                      ) [NoMulFactor]
+                    ) [Term]
+                  ) [AddOpTerm]
+                ) [ExprWithoutMinus]
+              ) [AssignValue]
+            ) [DesignatorStatementClass]
+          ) [Statements]
+          PrintStatementWithoutNumConst(
+            ExprWithoutMinus(
+              Term(
+                NoMulFactor(
+                  FactorVariable(
+                    DesignatorWithoutScopeResolution(
+                     x
+                    ) [DesignatorWithoutScopeResolution]
+                  ) [FactorVariable]
+                ) [NoMulFactor]
+              ) [Term]
+              AddOpTerm(
+                NoAddOpTerm(
+                ) [NoAddOpTerm]
+                Plus(
+                ) [Plus]
+                Term(
+                  NoMulFactor(
+                    FactorNumConst(
+                     2
+                    ) [FactorNumConst]
+                  ) [NoMulFactor]
+                ) [Term]
+              ) [AddOpTerm]
+            ) [ExprWithoutMinus]
+          ) [PrintStatementWithoutNumConst]
+        ) [Statements]
+        ReturnStatementWithExpr(
+          ExprWithoutMinus(
+            Term(
+              NoMulFactor(
+                FactorNumConst(
+                 0
+                ) [FactorNumConst]
+              ) [NoMulFactor]
+            ) [Term]
+            NoAddOpTerm(
+            ) [NoAddOpTerm]
+          ) [ExprWithoutMinus]
+        ) [ReturnStatementWithExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDecls]
+) [Program]
+INFO  17:05:08,504 - ===================================
+INFO  17:05:08,510 - Deklarisana promenljiva x na liniji 2
+INFO  17:05:08,510 - Deklarisana promenljiva y na liniji 2
+INFO  17:05:08,510 - Obradjuje se funkcija k na liniji 4
+INFO  17:05:08,510 - Deklarisana promenljiva c na liniji 4
+INFO  17:05:08,511 - Uspesna dodela vrednosti na liniji 5
+INFO  17:05:08,511 - Uspesna print naredba na liniji 6
+INFO  17:05:08,511 - Obradjuje se funkcija main na liniji 10
+INFO  17:05:08,511 - Uspesna dodela vrednosti na liniji 11
+INFO  17:05:08,511 - Uspesna print naredba na liniji 13
+INFO  17:05:08,511 - Uspesna print naredba na liniji 14
+INFO  17:05:08,511 - Poziv funkcije k na liniji 15
+INFO  17:05:08,511 - Uspesna dodela vrednosti na liniji 15
+INFO  17:05:08,511 - Uspesna print naredba na liniji 16
+INFO  17:05:08,511 -  Print count calls = 4
+INFO  17:05:08,511 -  Deklarisanih promenljivih ima = 3
+INFO  17:05:08,512 - ===================================
+INFO  17:05:08,512 - Parsiranje uspesno zavrseno.

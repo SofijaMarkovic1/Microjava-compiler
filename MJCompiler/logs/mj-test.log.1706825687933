@@ -1,0 +1,2157 @@
+INFO  22:16:36,554 - Compiling source file: C:\projekat\workspace\MJCompiler\test\program3.mj
+INFO  22:16:36,614 - #2 program
+INFO  22:16:36,614 - #45 MJTest
+INFO  22:16:36,614 - #5 namespace
+INFO  22:16:36,616 - #45 A
+INFO  22:16:36,616 - #3 {
+INFO  22:16:36,616 - #45 int
+INFO  22:16:36,617 - #45 xxx
+INFO  22:16:36,617 - #11 [
+INFO  22:16:36,617 - #12 ]
+INFO  22:16:36,618 - #8 ;
+INFO  22:16:36,618 - #45 char
+INFO  22:16:36,618 - #45 yyy
+INFO  22:16:36,618 - #11 [
+INFO  22:16:36,618 - #12 ]
+INFO  22:16:36,618 - #8 ;
+INFO  22:16:36,618 - #6 const
+INFO  22:16:36,619 - #45 int
+INFO  22:16:36,619 - #45 zzz
+INFO  22:16:36,619 - #7 =
+INFO  22:16:36,619 - #46 1
+INFO  22:16:36,619 - #8 ;
+INFO  22:16:36,620 - #3 {
+INFO  22:16:36,670 - #45 char
+INFO  22:16:36,672 - #45 func
+INFO  22:16:36,673 - #13 (
+INFO  22:16:36,673 - #14 )
+INFO  22:16:36,675 - #3 {
+INFO  22:16:36,679 - #18 return
+INFO  22:16:36,682 - #45 yyy
+INFO  22:16:36,682 - #11 [
+INFO  22:16:36,682 - #46 1
+INFO  22:16:36,682 - #12 ]
+INFO  22:16:36,687 - #8 ;
+INFO  22:16:36,688 - #4 }
+INFO  22:16:36,688 - #45 int
+INFO  22:16:36,689 - #45 func2
+INFO  22:16:36,690 - #13 (
+INFO  22:16:36,690 - #45 int
+INFO  22:16:36,690 - #45 a
+INFO  22:16:36,690 - #14 )
+INFO  22:16:36,691 - #3 {
+INFO  22:16:36,691 - #18 return
+INFO  22:16:36,692 - #45 zzz
+INFO  22:16:36,692 - #8 ;
+INFO  22:16:36,692 - #4 }
+INFO  22:16:36,693 - #4 }
+INFO  22:16:36,693 - #4 }
+INFO  22:16:36,693 - #6 const
+INFO  22:16:36,697 - #45 int
+INFO  22:16:36,697 - #45 a
+INFO  22:16:36,697 - #7 =
+INFO  22:16:36,698 - #46 1
+INFO  22:16:36,698 - #9 ,
+INFO  22:16:36,698 - #45 b
+INFO  22:16:36,698 - #7 =
+INFO  22:16:36,698 - #46 3
+INFO  22:16:36,699 - #9 ,
+INFO  22:16:36,699 - #45 c
+INFO  22:16:36,699 - #7 =
+INFO  22:16:36,700 - #46 1
+INFO  22:16:36,700 - #9 ,
+INFO  22:16:36,700 - #45 d
+INFO  22:16:36,700 - #7 =
+INFO  22:16:36,700 - #46 1
+INFO  22:16:36,701 - #8 ;
+INFO  22:16:36,701 - #45 char
+INFO  22:16:36,701 - #45 f
+INFO  22:16:36,701 - #9 ,
+INFO  22:16:36,702 - #45 e
+INFO  22:16:36,702 - #11 [
+INFO  22:16:36,702 - #12 ]
+INFO  22:16:36,702 - #9 ,
+INFO  22:16:36,702 - #45 g
+INFO  22:16:36,703 - #8 ;
+INFO  22:16:36,703 - #45 int
+INFO  22:16:36,703 - #45 h
+INFO  22:16:36,703 - #9 ,
+INFO  22:16:36,704 - #45 i
+INFO  22:16:36,704 - #9 ,
+INFO  22:16:36,704 - #45 j
+INFO  22:16:36,704 - #8 ;
+INFO  22:16:36,704 - #45 char
+INFO  22:16:36,705 - #45 y
+INFO  22:16:36,705 - #11 [
+INFO  22:16:36,705 - #12 ]
+INFO  22:16:36,705 - #8 ;
+INFO  22:16:36,705 - #45 char
+INFO  22:16:36,706 - #45 z
+INFO  22:16:36,707 - #11 [
+INFO  22:16:36,707 - #12 ]
+INFO  22:16:36,707 - #9 ,
+INFO  22:16:36,707 - #45 t
+INFO  22:16:36,707 - #8 ;
+INFO  22:16:36,708 - #6 const
+INFO  22:16:36,708 - #45 int
+INFO  22:16:36,708 - #45 yy
+INFO  22:16:36,708 - #7 =
+INFO  22:16:36,708 - #46 1
+INFO  22:16:36,709 - #8 ;
+INFO  22:16:36,709 - #45 bool
+INFO  22:16:36,709 - #45 bo
+INFO  22:16:36,709 - #8 ;
+INFO  22:16:36,710 - #45 int
+INFO  22:16:36,710 - #45 arr
+INFO  22:16:36,710 - #11 [
+INFO  22:16:36,710 - #12 ]
+INFO  22:16:36,711 - #8 ;
+INFO  22:16:36,711 - #3 {
+INFO  22:16:36,711 - #45 int
+INFO  22:16:36,711 - #45 fun
+INFO  22:16:36,711 - #13 (
+INFO  22:16:36,712 - #45 int
+INFO  22:16:36,712 - #45 a
+INFO  22:16:36,712 - #9 ,
+INFO  22:16:36,712 - #45 char
+INFO  22:16:36,712 - #45 b
+INFO  22:16:36,712 - #9 ,
+INFO  22:16:36,713 - #45 int
+INFO  22:16:36,713 - #45 w
+INFO  22:16:36,713 - #11 [
+INFO  22:16:36,714 - #12 ]
+INFO  22:16:36,714 - #14 )
+INFO  22:16:36,714 - #45 char
+INFO  22:16:36,714 - #45 ch
+INFO  22:16:36,714 - #11 [
+INFO  22:16:36,715 - #12 ]
+INFO  22:16:36,715 - #8 ;
+INFO  22:16:36,715 - #45 int
+INFO  22:16:36,716 - #45 f
+INFO  22:16:36,716 - #11 [
+INFO  22:16:36,716 - #12 ]
+INFO  22:16:36,716 - #8 ;
+INFO  22:16:36,716 - #3 {
+INFO  22:16:36,717 - #18 return
+INFO  22:16:36,717 - #45 A
+INFO  22:16:36,717 - #10 :
+INFO  22:16:36,717 - #10 :
+INFO  22:16:36,717 - #45 xxx
+INFO  22:16:36,718 - #11 [
+INFO  22:16:36,718 - #46 2
+INFO  22:16:36,718 - #12 ]
+INFO  22:16:36,718 - #8 ;
+INFO  22:16:36,719 - #4 }
+INFO  22:16:36,719 - #15 void
+INFO  22:16:36,719 - #45 main
+INFO  22:16:36,719 - #13 (
+INFO  22:16:36,720 - #14 )
+INFO  22:16:36,720 - #45 int
+INFO  22:16:36,720 - #45 z
+INFO  22:16:36,720 - #8 ;
+INFO  22:16:36,720 - #45 char
+INFO  22:16:36,721 - #45 a
+INFO  22:16:36,721 - #8 ;
+INFO  22:16:36,721 - #3 {
+INFO  22:16:36,721 - #45 e
+INFO  22:16:36,722 - #11 [
+INFO  22:16:36,722 - #46 2
+INFO  22:16:36,722 - #12 ]
+INFO  22:16:36,722 - #7 =
+INFO  22:16:36,722 - #45 a
+INFO  22:16:36,726 - #8 ;
+INFO  22:16:36,728 - #45 a
+INFO  22:16:36,728 - #7 =
+INFO  22:16:36,729 - #45 e
+INFO  22:16:36,729 - #11 [
+INFO  22:16:36,729 - #46 2
+INFO  22:16:36,729 - #12 ]
+INFO  22:16:36,729 - #8 ;
+INFO  22:16:36,730 - #45 a
+INFO  22:16:36,730 - #7 =
+INFO  22:16:36,731 - #45 A
+INFO  22:16:36,731 - #10 :
+INFO  22:16:36,731 - #10 :
+INFO  22:16:36,731 - #45 yyy
+INFO  22:16:36,732 - #11 [
+INFO  22:16:36,732 - #46 2
+INFO  22:16:36,732 - #12 ]
+INFO  22:16:36,732 - #8 ;
+INFO  22:16:36,732 - #45 h
+INFO  22:16:36,733 - #7 =
+INFO  22:16:36,734 - #45 A
+INFO  22:16:36,734 - #10 :
+INFO  22:16:36,734 - #10 :
+INFO  22:16:36,734 - #45 xxx
+INFO  22:16:36,734 - #11 [
+INFO  22:16:36,734 - #46 3
+INFO  22:16:36,734 - #12 ]
+INFO  22:16:36,735 - #8 ;
+INFO  22:16:36,735 - #45 h
+INFO  22:16:36,735 - #7 =
+INFO  22:16:36,736 - #45 c
+INFO  22:16:36,736 - #24 *
+INFO  22:16:36,736 - #45 b
+INFO  22:16:36,740 - #27 +
+INFO  22:16:36,741 - #45 fun
+INFO  22:16:36,747 - #13 (
+INFO  22:16:36,748 - #45 A
+INFO  22:16:36,749 - #10 :
+INFO  22:16:36,750 - #10 :
+INFO  22:16:36,750 - #45 func2
+INFO  22:16:36,750 - #13 (
+INFO  22:16:36,750 - #45 h
+INFO  22:16:36,750 - #14 )
+INFO  22:16:36,752 - #9 ,
+INFO  22:16:36,754 - #45 A
+INFO  22:16:36,754 - #10 :
+INFO  22:16:36,754 - #10 :
+INFO  22:16:36,754 - #45 yyy
+INFO  22:16:36,754 - #11 [
+INFO  22:16:36,754 - #46 2
+INFO  22:16:36,754 - #12 ]
+INFO  22:16:36,755 - #9 ,
+INFO  22:16:36,755 - #45 A
+INFO  22:16:36,755 - #10 :
+INFO  22:16:36,756 - #10 :
+INFO  22:16:36,756 - #45 xxx
+INFO  22:16:36,756 - #14 )
+INFO  22:16:36,756 - #8 ;
+INFO  22:16:36,757 - #45 h
+INFO  22:16:36,757 - #7 =
+INFO  22:16:36,757 - #45 A
+INFO  22:16:36,757 - #10 :
+INFO  22:16:36,757 - #10 :
+INFO  22:16:36,757 - #45 xxx
+INFO  22:16:36,758 - #11 [
+INFO  22:16:36,758 - #46 2
+INFO  22:16:36,758 - #12 ]
+INFO  22:16:36,758 - #8 ;
+INFO  22:16:36,758 - #45 h
+INFO  22:16:36,759 - #7 =
+INFO  22:16:36,759 - #45 len
+INFO  22:16:36,759 - #13 (
+INFO  22:16:36,759 - #45 A
+INFO  22:16:36,759 - #10 :
+INFO  22:16:36,759 - #10 :
+INFO  22:16:36,759 - #45 yyy
+INFO  22:16:36,760 - #14 )
+INFO  22:16:36,760 - #27 +
+INFO  22:16:36,760 - #45 ord
+INFO  22:16:36,760 - #13 (
+INFO  22:16:36,760 - #45 chr
+INFO  22:16:36,761 - #13 (
+INFO  22:16:36,761 - #46 65
+INFO  22:16:36,761 - #14 )
+INFO  22:16:36,761 - #14 )
+INFO  22:16:36,762 - #8 ;
+INFO  22:16:36,762 - #45 A
+INFO  22:16:36,762 - #10 :
+INFO  22:16:36,762 - #10 :
+INFO  22:16:36,762 - #45 xxx
+INFO  22:16:36,762 - #7 =
+INFO  22:16:36,762 - #31 new
+INFO  22:16:36,762 - #45 int
+INFO  22:16:36,762 - #11 [
+INFO  22:16:36,763 - #45 z
+INFO  22:16:36,763 - #12 ]
+INFO  22:16:36,763 - #8 ;
+INFO  22:16:36,764 - #45 y
+INFO  22:16:36,764 - #11 [
+INFO  22:16:36,764 - #46 2
+INFO  22:16:36,764 - #12 ]
+INFO  22:16:36,765 - #7 =
+INFO  22:16:36,765 - #45 A
+INFO  22:16:36,765 - #10 :
+INFO  22:16:36,765 - #10 :
+INFO  22:16:36,765 - #45 func
+INFO  22:16:36,765 - #13 (
+INFO  22:16:36,766 - #14 )
+INFO  22:16:36,766 - #8 ;
+INFO  22:16:36,766 - #16 if
+INFO  22:16:36,766 - #13 (
+INFO  22:16:36,766 - #45 f
+INFO  22:16:36,767 - #35 !=
+INFO  22:16:36,767 - #45 g
+INFO  22:16:36,770 - #32 ||
+INFO  22:16:36,772 - #45 a
+INFO  22:16:36,773 - #36 >
+INFO  22:16:36,773 - #48 b
+INFO  22:16:36,775 - #32 ||
+INFO  22:16:36,775 - #45 arr
+INFO  22:16:36,775 - #34 ==
+INFO  22:16:36,776 - #45 A
+INFO  22:16:36,777 - #10 :
+INFO  22:16:36,777 - #10 :
+INFO  22:16:36,777 - #45 xxx
+INFO  22:16:36,777 - #14 )
+INFO  22:16:36,778 - #3 {
+INFO  22:16:36,779 - #4 }
+INFO  22:16:36,779 - #16 if
+INFO  22:16:36,779 - #13 (
+INFO  22:16:36,779 - #45 bo
+INFO  22:16:36,779 - #14 )
+INFO  22:16:36,780 - #3 {
+INFO  22:16:36,780 - #4 }
+INFO  22:16:36,780 - #40 else
+INFO  22:16:36,780 - #3 {
+INFO  22:16:36,780 - #4 }
+INFO  22:16:36,780 - #21 for
+INFO  22:16:36,781 - #13 (
+INFO  22:16:36,782 - #45 i
+INFO  22:16:36,782 - #7 =
+INFO  22:16:36,783 - #46 0
+INFO  22:16:36,783 - #9 ,
+INFO  22:16:36,783 - #45 j
+INFO  22:16:36,783 - #7 =
+INFO  22:16:36,783 - #46 0
+INFO  22:16:36,784 - #8 ;
+INFO  22:16:36,785 - #45 i
+INFO  22:16:36,786 - #38 <
+INFO  22:16:36,786 - #46 10
+INFO  22:16:36,788 - #8 ;
+INFO  22:16:36,792 - #45 i
+INFO  22:16:36,792 - #22 ++
+INFO  22:16:36,792 - #14 )
+INFO  22:16:36,793 - #3 {
+INFO  22:16:36,793 - #21 for
+INFO  22:16:36,793 - #13 (
+INFO  22:16:36,793 - #45 j
+INFO  22:16:36,793 - #7 =
+INFO  22:16:36,794 - #46 0
+INFO  22:16:36,794 - #8 ;
+INFO  22:16:36,794 - #45 j
+INFO  22:16:36,794 - #38 <
+INFO  22:16:36,794 - #45 i
+INFO  22:16:36,794 - #8 ;
+INFO  22:16:36,795 - #45 j
+INFO  22:16:36,795 - #22 ++
+INFO  22:16:36,795 - #14 )
+INFO  22:16:36,795 - #3 {
+INFO  22:16:36,795 - #28 continue
+INFO  22:16:36,795 - #8 ;
+INFO  22:16:36,795 - #4 }
+INFO  22:16:36,797 - #17 break
+INFO  22:16:36,798 - #8 ;
+INFO  22:16:36,798 - #4 }
+INFO  22:16:36,799 - #19 read
+INFO  22:16:36,800 - #13 (
+INFO  22:16:36,800 - #45 A
+INFO  22:16:36,800 - #10 :
+INFO  22:16:36,800 - #10 :
+INFO  22:16:36,800 - #45 yyy
+INFO  22:16:36,800 - #11 [
+INFO  22:16:36,800 - #46 2
+INFO  22:16:36,801 - #12 ]
+INFO  22:16:36,801 - #14 )
+INFO  22:16:36,801 - #8 ;
+INFO  22:16:36,801 - #20 print
+INFO  22:16:36,801 - #13 (
+INFO  22:16:36,802 - #45 y
+INFO  22:16:36,802 - #11 [
+INFO  22:16:36,802 - #46 3
+INFO  22:16:36,802 - #12 ]
+INFO  22:16:36,802 - #14 )
+INFO  22:16:36,802 - #8 ;
+INFO  22:16:36,802 - #20 print
+INFO  22:16:36,803 - #13 (
+INFO  22:16:36,803 - #45 i
+INFO  22:16:36,803 - #9 ,
+INFO  22:16:36,803 - #46 2
+INFO  22:16:36,803 - #14 )
+INFO  22:16:36,803 - #8 ;
+INFO  22:16:36,803 - #20 print
+INFO  22:16:36,803 - #13 (
+INFO  22:16:36,804 - #47 1
+INFO  22:16:36,804 - #9 ,
+INFO  22:16:36,804 - #46 3
+INFO  22:16:36,804 - #14 )
+INFO  22:16:36,804 - #8 ;
+INFO  22:16:36,804 - #45 y
+INFO  22:16:36,804 - #11 [
+INFO  22:16:36,805 - #46 3
+INFO  22:16:36,805 - #12 ]
+INFO  22:16:36,805 - #7 =
+INFO  22:16:36,805 - #45 y
+INFO  22:16:36,805 - #11 [
+INFO  22:16:36,805 - #46 2
+INFO  22:16:36,805 - #12 ]
+INFO  22:16:36,805 - #8 ;
+INFO  22:16:36,806 - #45 y
+INFO  22:16:36,806 - #7 =
+INFO  22:16:36,806 - #45 y
+INFO  22:16:36,806 - #8 ;
+INFO  22:16:36,806 - #45 i
+INFO  22:16:36,806 - #22 ++
+INFO  22:16:36,807 - #8 ;
+INFO  22:16:36,807 - #45 A
+INFO  22:16:36,807 - #10 :
+INFO  22:16:36,807 - #10 :
+INFO  22:16:36,807 - #45 xxx
+INFO  22:16:36,807 - #11 [
+INFO  22:16:36,807 - #46 2
+INFO  22:16:36,807 - #12 ]
+INFO  22:16:36,807 - #23 --
+INFO  22:16:36,807 - #8 ;
+INFO  22:16:36,807 - #45 A
+INFO  22:16:36,807 - #10 :
+INFO  22:16:36,807 - #10 :
+INFO  22:16:36,807 - #45 func
+INFO  22:16:36,807 - #13 (
+INFO  22:16:36,808 - #14 )
+INFO  22:16:36,809 - #8 ;
+INFO  22:16:36,809 - #45 A
+INFO  22:16:36,809 - #10 :
+INFO  22:16:36,809 - #10 :
+INFO  22:16:36,810 - #45 func2
+INFO  22:16:36,810 - #13 (
+INFO  22:16:36,810 - #46 2
+INFO  22:16:36,810 - #14 )
+INFO  22:16:36,810 - #8 ;
+INFO  22:16:36,810 - #45 fun
+INFO  22:16:36,810 - #13 (
+INFO  22:16:36,810 - #46 2
+INFO  22:16:36,810 - #9 ,
+INFO  22:16:36,810 - #48 b
+INFO  22:16:36,810 - #9 ,
+INFO  22:16:36,810 - #45 A
+INFO  22:16:36,810 - #10 :
+INFO  22:16:36,810 - #10 :
+INFO  22:16:36,810 - #45 xxx
+INFO  22:16:36,810 - #14 )
+INFO  22:16:36,810 - #8 ;
+INFO  22:16:36,811 - #11 [
+INFO  22:16:36,811 - #45 h
+INFO  22:16:36,812 - #9 ,
+INFO  22:16:36,813 - #45 A
+INFO  22:16:36,813 - #10 :
+INFO  22:16:36,813 - #10 :
+INFO  22:16:36,813 - #45 xxx
+INFO  22:16:36,813 - #11 [
+INFO  22:16:36,813 - #46 3
+INFO  22:16:36,813 - #12 ]
+INFO  22:16:36,814 - #9 ,
+INFO  22:16:36,814 - #45 i
+INFO  22:16:36,814 - #9 ,
+INFO  22:16:36,814 - #45 z
+INFO  22:16:36,814 - #9 ,
+INFO  22:16:36,814 - #9 ,
+INFO  22:16:36,816 - #24 *
+INFO  22:16:36,816 - #45 arr
+INFO  22:16:36,816 - #12 ]
+INFO  22:16:36,816 - #7 =
+INFO  22:16:36,816 - #45 A
+INFO  22:16:36,816 - #10 :
+INFO  22:16:36,817 - #10 :
+INFO  22:16:36,817 - #45 xxx
+INFO  22:16:36,817 - #8 ;
+INFO  22:16:36,817 - #19 read
+INFO  22:16:36,817 - #13 (
+INFO  22:16:36,818 - #45 h
+INFO  22:16:36,818 - #14 )
+INFO  22:16:36,818 - #8 ;
+INFO  22:16:36,818 - #45 z
+INFO  22:16:36,818 - #22 ++
+INFO  22:16:36,818 - #8 ;
+INFO  22:16:36,818 - #45 z
+INFO  22:16:36,818 - #23 --
+INFO  22:16:36,818 - #8 ;
+INFO  22:16:36,818 - #18 return
+INFO  22:16:36,818 - #8 ;
+INFO  22:16:36,818 - #4 }
+INFO  22:16:36,821 - #4 }
+INFO  22:16:36,861 - Program(
+  ProgramName(
+   MJTest
+  ) [ProgramName]
+  Namespaces(
+    NoNamespaces(
+    ) [NoNamespaces]
+    Namespace(
+      NamespaceName(
+       A
+      ) [NamespaceName]
+      Decls(
+        Decls(
+          Decls(
+            NoDecls(
+            ) [NoDecls]
+            VarDeclaration(
+              VariableDecl(
+                TypeWithoutScopeResolution(
+                 int
+                ) [TypeWithoutScopeResolution]
+                SignleVarDecl(
+                  Array(
+                   xxx
+                  ) [Array]
+                ) [SignleVarDecl]
+              ) [VariableDecl]
+            ) [VarDeclaration]
+          ) [Decls]
+          VarDeclaration(
+            VariableDecl(
+              TypeWithoutScopeResolution(
+               char
+              ) [TypeWithoutScopeResolution]
+              SignleVarDecl(
+                Array(
+                 yyy
+                ) [Array]
+              ) [SignleVarDecl]
+            ) [VariableDecl]
+          ) [VarDeclaration]
+        ) [Decls]
+        ConstDeclar(
+          ConstDeclaration(
+            TypeWithoutScopeResolution(
+             int
+            ) [TypeWithoutScopeResolution]
+            NoConstAssignements(
+              NumAssignment(
+               zzz
+               1
+              ) [NumAssignment]
+            ) [NoConstAssignements]
+          ) [ConstDeclaration]
+        ) [ConstDeclar]
+      ) [Decls]
+      MethodDecls(
+        MethodDecls(
+          NoMethods(
+          ) [NoMethods]
+          MethodDeclaration(
+            TypedMethod(
+              TypeWithoutScopeResolution(
+               char
+              ) [TypeWithoutScopeResolution]
+             func
+            ) [TypedMethod]
+            WithoutFormParams(
+            ) [WithoutFormParams]
+            FormParsEnd(
+            ) [FormParsEnd]
+            NoOptionalVarDecls(
+            ) [NoOptionalVarDecls]
+            Statements(
+              NoStatements(
+              ) [NoStatements]
+              ReturnStatementWithExpr(
+                ExprWithoutMinus(
+                  Term(
+                    NoMulFactor(
+                      FactorVariable(
+                        DesignatorWithoutScopeResolutionAndIndexing(
+                         yyy
+                          ExprWithoutMinus(
+                            Term(
+                              NoMulFactor(
+                                FactorNumConst(
+                                 1
+                                ) [FactorNumConst]
+                              ) [NoMulFactor]
+                            ) [Term]
+                            NoAddOpTerm(
+                            ) [NoAddOpTerm]
+                          ) [ExprWithoutMinus]
+                        ) [DesignatorWithoutScopeResolutionAndIndexing]
+                      ) [FactorVariable]
+                    ) [NoMulFactor]
+                  ) [Term]
+                  NoAddOpTerm(
+                  ) [NoAddOpTerm]
+                ) [ExprWithoutMinus]
+              ) [ReturnStatementWithExpr]
+            ) [Statements]
+          ) [MethodDeclaration]
+        ) [MethodDecls]
+        MethodDeclaration(
+          TypedMethod(
+            TypeWithoutScopeResolution(
+             int
+            ) [TypeWithoutScopeResolution]
+           func2
+          ) [TypedMethod]
+          WithFormParams(
+            SingleFormPar(
+              TypeWithoutScopeResolution(
+               int
+              ) [TypeWithoutScopeResolution]
+              Var(
+               a
+              ) [Var]
+            ) [SingleFormPar]
+          ) [WithFormParams]
+          FormParsEnd(
+          ) [FormParsEnd]
+          NoOptionalVarDecls(
+          ) [NoOptionalVarDecls]
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            ReturnStatementWithExpr(
+              ExprWithoutMinus(
+                Term(
+                  NoMulFactor(
+                    FactorVariable(
+                      DesignatorWithoutScopeResolution(
+                       zzz
+                      ) [DesignatorWithoutScopeResolution]
+                    ) [FactorVariable]
+                  ) [NoMulFactor]
+                ) [Term]
+                NoAddOpTerm(
+                ) [NoAddOpTerm]
+              ) [ExprWithoutMinus]
+            ) [ReturnStatementWithExpr]
+          ) [Statements]
+        ) [MethodDeclaration]
+      ) [MethodDecls]
+      NamespaceEnd(
+      ) [NamespaceEnd]
+    ) [Namespace]
+  ) [Namespaces]
+  Decls(
+    Decls(
+      Decls(
+        Decls(
+          Decls(
+            Decls(
+              Decls(
+                Decls(
+                  NoDecls(
+                  ) [NoDecls]
+                  ConstDeclar(
+                    ConstDeclaration(
+                      TypeWithoutScopeResolution(
+                       int
+                      ) [TypeWithoutScopeResolution]
+                      ConstAssignements(
+                        ConstAssignements(
+                          ConstAssignements(
+                            NoConstAssignements(
+                              NumAssignment(
+                               a
+                               1
+                              ) [NumAssignment]
+                            ) [NoConstAssignements]
+                            NumAssignment(
+                             b
+                             3
+                            ) [NumAssignment]
+                          ) [ConstAssignements]
+                          NumAssignment(
+                           c
+                           1
+                          ) [NumAssignment]
+                        ) [ConstAssignements]
+                        NumAssignment(
+                         d
+                         1
+                        ) [NumAssignment]
+                      ) [ConstAssignements]
+                    ) [ConstDeclaration]
+                  ) [ConstDeclar]
+                ) [Decls]
+                VarDeclaration(
+                  VariableDecl(
+                    TypeWithoutScopeResolution(
+                     char
+                    ) [TypeWithoutScopeResolution]
+                    VarDecls(
+                      VarDecls(
+                        SignleVarDecl(
+                          Var(
+                           f
+                          ) [Var]
+                        ) [SignleVarDecl]
+                        Array(
+                         e
+                        ) [Array]
+                      ) [VarDecls]
+                      Var(
+                       g
+                      ) [Var]
+                    ) [VarDecls]
+                  ) [VariableDecl]
+                ) [VarDeclaration]
+              ) [Decls]
+              VarDeclaration(
+                VariableDecl(
+                  TypeWithoutScopeResolution(
+                   int
+                  ) [TypeWithoutScopeResolution]
+                  VarDecls(
+                    VarDecls(
+                      SignleVarDecl(
+                        Var(
+                         h
+                        ) [Var]
+                      ) [SignleVarDecl]
+                      Var(
+                       i
+                      ) [Var]
+                    ) [VarDecls]
+                    Var(
+                     j
+                    ) [Var]
+                  ) [VarDecls]
+                ) [VariableDecl]
+              ) [VarDeclaration]
+            ) [Decls]
+            VarDeclaration(
+              VariableDecl(
+                TypeWithoutScopeResolution(
+                 char
+                ) [TypeWithoutScopeResolution]
+                SignleVarDecl(
+                  Array(
+                   y
+                  ) [Array]
+                ) [SignleVarDecl]
+              ) [VariableDecl]
+            ) [VarDeclaration]
+          ) [Decls]
+          VarDeclaration(
+            VariableDecl(
+              TypeWithoutScopeResolution(
+               char
+              ) [TypeWithoutScopeResolution]
+              VarDecls(
+                SignleVarDecl(
+                  Array(
+                   z
+                  ) [Array]
+                ) [SignleVarDecl]
+                Var(
+                 t
+                ) [Var]
+              ) [VarDecls]
+            ) [VariableDecl]
+          ) [VarDeclaration]
+        ) [Decls]
+        ConstDeclar(
+          ConstDeclaration(
+            TypeWithoutScopeResolution(
+             int
+            ) [TypeWithoutScopeResolution]
+            NoConstAssignements(
+              NumAssignment(
+               yy
+               1
+              ) [NumAssignment]
+            ) [NoConstAssignements]
+          ) [ConstDeclaration]
+        ) [ConstDeclar]
+      ) [Decls]
+      VarDeclaration(
+        VariableDecl(
+          TypeWithoutScopeResolution(
+           bool
+          ) [TypeWithoutScopeResolution]
+          SignleVarDecl(
+            Var(
+             bo
+            ) [Var]
+          ) [SignleVarDecl]
+        ) [VariableDecl]
+      ) [VarDeclaration]
+    ) [Decls]
+    VarDeclaration(
+      VariableDecl(
+        TypeWithoutScopeResolution(
+         int
+        ) [TypeWithoutScopeResolution]
+        SignleVarDecl(
+          Array(
+           arr
+          ) [Array]
+        ) [SignleVarDecl]
+      ) [VariableDecl]
+    ) [VarDeclaration]
+  ) [Decls]
+  MethodDecls(
+    MethodDecls(
+      NoMethods(
+      ) [NoMethods]
+      MethodDeclaration(
+        TypedMethod(
+          TypeWithoutScopeResolution(
+           int
+          ) [TypeWithoutScopeResolution]
+         fun
+        ) [TypedMethod]
+        WithFormParams(
+          MultipleFormPars(
+            MultipleFormPars(
+              SingleFormPar(
+                TypeWithoutScopeResolution(
+                 int
+                ) [TypeWithoutScopeResolution]
+                Var(
+                 a
+                ) [Var]
+              ) [SingleFormPar]
+              TypeWithoutScopeResolution(
+               char
+              ) [TypeWithoutScopeResolution]
+              Var(
+               b
+              ) [Var]
+            ) [MultipleFormPars]
+            TypeWithoutScopeResolution(
+             int
+            ) [TypeWithoutScopeResolution]
+            Array(
+             w
+            ) [Array]
+          ) [MultipleFormPars]
+        ) [WithFormParams]
+        FormParsEnd(
+        ) [FormParsEnd]
+        OptionalVarDecls(
+          OptionalVarDecls(
+            NoOptionalVarDecls(
+            ) [NoOptionalVarDecls]
+            VariableDecl(
+              TypeWithoutScopeResolution(
+               char
+              ) [TypeWithoutScopeResolution]
+              SignleVarDecl(
+                Array(
+                 ch
+                ) [Array]
+              ) [SignleVarDecl]
+            ) [VariableDecl]
+          ) [OptionalVarDecls]
+          VariableDecl(
+            TypeWithoutScopeResolution(
+             int
+            ) [TypeWithoutScopeResolution]
+            SignleVarDecl(
+              Array(
+               f
+              ) [Array]
+            ) [SignleVarDecl]
+          ) [VariableDecl]
+        ) [OptionalVarDecls]
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          ReturnStatementWithExpr(
+            ExprWithoutMinus(
+              Term(
+                NoMulFactor(
+                  FactorVariable(
+                    DesignatorWithScopeResolutionAndIndexing(
+                     A
+                     xxx
+                      ExprWithoutMinus(
+                        Term(
+                          NoMulFactor(
+                            FactorNumConst(
+                             2
+                            ) [FactorNumConst]
+                          ) [NoMulFactor]
+                        ) [Term]
+                        NoAddOpTerm(
+                        ) [NoAddOpTerm]
+                      ) [ExprWithoutMinus]
+                    ) [DesignatorWithScopeResolutionAndIndexing]
+                  ) [FactorVariable]
+                ) [NoMulFactor]
+              ) [Term]
+              NoAddOpTerm(
+              ) [NoAddOpTerm]
+            ) [ExprWithoutMinus]
+          ) [ReturnStatementWithExpr]
+        ) [Statements]
+      ) [MethodDeclaration]
+    ) [MethodDecls]
+    MethodDeclaration(
+      VoidMethod(
+       main
+      ) [VoidMethod]
+      WithoutFormParams(
+      ) [WithoutFormParams]
+      FormParsEnd(
+      ) [FormParsEnd]
+      OptionalVarDecls(
+        OptionalVarDecls(
+          NoOptionalVarDecls(
+          ) [NoOptionalVarDecls]
+          VariableDecl(
+            TypeWithoutScopeResolution(
+             int
+            ) [TypeWithoutScopeResolution]
+            SignleVarDecl(
+              Var(
+               z
+              ) [Var]
+            ) [SignleVarDecl]
+          ) [VariableDecl]
+        ) [OptionalVarDecls]
+        VariableDecl(
+          TypeWithoutScopeResolution(
+           char
+          ) [TypeWithoutScopeResolution]
+          SignleVarDecl(
+            Var(
+             a
+            ) [Var]
+          ) [SignleVarDecl]
+        ) [VariableDecl]
+      ) [OptionalVarDecls]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      Statements(
+                                                        Statements(
+                                                          Statements(
+                                                            Statements(
+                                                              NoStatements(
+                                                              ) [NoStatements]
+                                                              DesignatorStatementClass(
+                                                                AssignValue(
+                                                                  DesignatorWithoutScopeResolutionAndIndexing(
+                                                                   e
+                                                                    ExprWithoutMinus(
+                                                                      Term(
+                                                                        NoMulFactor(
+                                                                          FactorNumConst(
+                                                                           2
+                                                                          ) [FactorNumConst]
+                                                                        ) [NoMulFactor]
+                                                                      ) [Term]
+                                                                      NoAddOpTerm(
+                                                                      ) [NoAddOpTerm]
+                                                                    ) [ExprWithoutMinus]
+                                                                  ) [DesignatorWithoutScopeResolutionAndIndexing]
+                                                                  Assign(
+                                                                  ) [Assign]
+                                                                  ExprWithoutMinus(
+                                                                    Term(
+                                                                      NoMulFactor(
+                                                                        FactorVariable(
+                                                                          DesignatorWithoutScopeResolution(
+                                                                           a
+                                                                          ) [DesignatorWithoutScopeResolution]
+                                                                        ) [FactorVariable]
+                                                                      ) [NoMulFactor]
+                                                                    ) [Term]
+                                                                    NoAddOpTerm(
+                                                                    ) [NoAddOpTerm]
+                                                                  ) [ExprWithoutMinus]
+                                                                ) [AssignValue]
+                                                              ) [DesignatorStatementClass]
+                                                            ) [Statements]
+                                                            DesignatorStatementClass(
+                                                              AssignValue(
+                                                                DesignatorWithoutScopeResolution(
+                                                                 a
+                                                                ) [DesignatorWithoutScopeResolution]
+                                                                Assign(
+                                                                ) [Assign]
+                                                                ExprWithoutMinus(
+                                                                  Term(
+                                                                    NoMulFactor(
+                                                                      FactorVariable(
+                                                                        DesignatorWithoutScopeResolutionAndIndexing(
+                                                                         e
+                                                                          ExprWithoutMinus(
+                                                                            Term(
+                                                                              NoMulFactor(
+                                                                                FactorNumConst(
+                                                                                 2
+                                                                                ) [FactorNumConst]
+                                                                              ) [NoMulFactor]
+                                                                            ) [Term]
+                                                                            NoAddOpTerm(
+                                                                            ) [NoAddOpTerm]
+                                                                          ) [ExprWithoutMinus]
+                                                                        ) [DesignatorWithoutScopeResolutionAndIndexing]
+                                                                      ) [FactorVariable]
+                                                                    ) [NoMulFactor]
+                                                                  ) [Term]
+                                                                  NoAddOpTerm(
+                                                                  ) [NoAddOpTerm]
+                                                                ) [ExprWithoutMinus]
+                                                              ) [AssignValue]
+                                                            ) [DesignatorStatementClass]
+                                                          ) [Statements]
+                                                          DesignatorStatementClass(
+                                                            AssignValue(
+                                                              DesignatorWithoutScopeResolution(
+                                                               a
+                                                              ) [DesignatorWithoutScopeResolution]
+                                                              Assign(
+                                                              ) [Assign]
+                                                              ExprWithoutMinus(
+                                                                Term(
+                                                                  NoMulFactor(
+                                                                    FactorVariable(
+                                                                      DesignatorWithScopeResolutionAndIndexing(
+                                                                       A
+                                                                       yyy
+                                                                        ExprWithoutMinus(
+                                                                          Term(
+                                                                            NoMulFactor(
+                                                                              FactorNumConst(
+                                                                               2
+                                                                              ) [FactorNumConst]
+                                                                            ) [NoMulFactor]
+                                                                          ) [Term]
+                                                                          NoAddOpTerm(
+                                                                          ) [NoAddOpTerm]
+                                                                        ) [ExprWithoutMinus]
+                                                                      ) [DesignatorWithScopeResolutionAndIndexing]
+                                                                    ) [FactorVariable]
+                                                                  ) [NoMulFactor]
+                                                                ) [Term]
+                                                                NoAddOpTerm(
+                                                                ) [NoAddOpTerm]
+                                                              ) [ExprWithoutMinus]
+                                                            ) [AssignValue]
+                                                          ) [DesignatorStatementClass]
+                                                        ) [Statements]
+                                                        DesignatorStatementClass(
+                                                          AssignValue(
+                                                            DesignatorWithoutScopeResolution(
+                                                             h
+                                                            ) [DesignatorWithoutScopeResolution]
+                                                            Assign(
+                                                            ) [Assign]
+                                                            ExprWithoutMinus(
+                                                              Term(
+                                                                NoMulFactor(
+                                                                  FactorVariable(
+                                                                    DesignatorWithScopeResolutionAndIndexing(
+                                                                     A
+                                                                     xxx
+                                                                      ExprWithoutMinus(
+                                                                        Term(
+                                                                          NoMulFactor(
+                                                                            FactorNumConst(
+                                                                             3
+                                                                            ) [FactorNumConst]
+                                                                          ) [NoMulFactor]
+                                                                        ) [Term]
+                                                                        NoAddOpTerm(
+                                                                        ) [NoAddOpTerm]
+                                                                      ) [ExprWithoutMinus]
+                                                                    ) [DesignatorWithScopeResolutionAndIndexing]
+                                                                  ) [FactorVariable]
+                                                                ) [NoMulFactor]
+                                                              ) [Term]
+                                                              NoAddOpTerm(
+                                                              ) [NoAddOpTerm]
+                                                            ) [ExprWithoutMinus]
+                                                          ) [AssignValue]
+                                                        ) [DesignatorStatementClass]
+                                                      ) [Statements]
+                                                      DesignatorStatementClass(
+                                                        AssignValue(
+                                                          DesignatorWithoutScopeResolution(
+                                                           h
+                                                          ) [DesignatorWithoutScopeResolution]
+                                                          Assign(
+                                                          ) [Assign]
+                                                          ExprWithoutMinus(
+                                                            Term(
+                                                              MulFactor(
+                                                                NoMulFactor(
+                                                                  FactorVariable(
+                                                                    DesignatorWithoutScopeResolution(
+                                                                     c
+                                                                    ) [DesignatorWithoutScopeResolution]
+                                                                  ) [FactorVariable]
+                                                                ) [NoMulFactor]
+                                                                Mul(
+                                                                ) [Mul]
+                                                                FactorVariable(
+                                                                  DesignatorWithoutScopeResolution(
+                                                                   b
+                                                                  ) [DesignatorWithoutScopeResolution]
+                                                                ) [FactorVariable]
+                                                              ) [MulFactor]
+                                                            ) [Term]
+                                                            AddOpTerm(
+                                                              NoAddOpTerm(
+                                                              ) [NoAddOpTerm]
+                                                              Plus(
+                                                              ) [Plus]
+                                                              Term(
+                                                                NoMulFactor(
+                                                                  Function(
+                                                                    DesignatorWithoutScopeResolution(
+                                                                     fun
+                                                                    ) [DesignatorWithoutScopeResolution]
+                                                                    CallWithActPars(
+                                                                      CallStart(
+                                                                      ) [CallStart]
+                                                                      ActPars(
+                                                                        MultipleExpr(
+                                                                          MultipleExpr(
+                                                                            SingleExpr(
+                                                                              ExprWithoutMinus(
+                                                                                Term(
+                                                                                  NoMulFactor(
+                                                                                    Function(
+                                                                                      DesignatorWithScopeResolution(
+                                                                                       A
+                                                                                       func2
+                                                                                      ) [DesignatorWithScopeResolution]
+                                                                                      CallWithActPars(
+                                                                                        CallStart(
+                                                                                        ) [CallStart]
+                                                                                        ActPars(
+                                                                                          SingleExpr(
+                                                                                            ExprWithoutMinus(
+                                                                                              Term(
+                                                                                                NoMulFactor(
+                                                                                                  FactorVariable(
+                                                                                                    DesignatorWithoutScopeResolution(
+                                                                                                     h
+                                                                                                    ) [DesignatorWithoutScopeResolution]
+                                                                                                  ) [FactorVariable]
+                                                                                                ) [NoMulFactor]
+                                                                                              ) [Term]
+                                                                                              NoAddOpTerm(
+                                                                                              ) [NoAddOpTerm]
+                                                                                            ) [ExprWithoutMinus]
+                                                                                          ) [SingleExpr]
+                                                                                        ) [ActPars]
+                                                                                      ) [CallWithActPars]
+                                                                                    ) [Function]
+                                                                                  ) [NoMulFactor]
+                                                                                ) [Term]
+                                                                                NoAddOpTerm(
+                                                                                ) [NoAddOpTerm]
+                                                                              ) [ExprWithoutMinus]
+                                                                            ) [SingleExpr]
+                                                                            ExprWithoutMinus(
+                                                                              Term(
+                                                                                NoMulFactor(
+                                                                                  FactorVariable(
+                                                                                    DesignatorWithScopeResolutionAndIndexing(
+                                                                                     A
+                                                                                     yyy
+                                                                                      ExprWithoutMinus(
+                                                                                        Term(
+                                                                                          NoMulFactor(
+                                                                                            FactorNumConst(
+                                                                                             2
+                                                                                            ) [FactorNumConst]
+                                                                                          ) [NoMulFactor]
+                                                                                        ) [Term]
+                                                                                        NoAddOpTerm(
+                                                                                        ) [NoAddOpTerm]
+                                                                                      ) [ExprWithoutMinus]
+                                                                                    ) [DesignatorWithScopeResolutionAndIndexing]
+                                                                                  ) [FactorVariable]
+                                                                                ) [NoMulFactor]
+                                                                              ) [Term]
+                                                                              NoAddOpTerm(
+                                                                              ) [NoAddOpTerm]
+                                                                            ) [ExprWithoutMinus]
+                                                                          ) [MultipleExpr]
+                                                                          ExprWithoutMinus(
+                                                                            Term(
+                                                                              NoMulFactor(
+                                                                                FactorVariable(
+                                                                                  DesignatorWithScopeResolution(
+                                                                                   A
+                                                                                   xxx
+                                                                                  ) [DesignatorWithScopeResolution]
+                                                                                ) [FactorVariable]
+                                                                              ) [NoMulFactor]
+                                                                            ) [Term]
+                                                                            NoAddOpTerm(
+                                                                            ) [NoAddOpTerm]
+                                                                          ) [ExprWithoutMinus]
+                                                                        ) [MultipleExpr]
+                                                                      ) [ActPars]
+                                                                    ) [CallWithActPars]
+                                                                  ) [Function]
+                                                                ) [NoMulFactor]
+                                                              ) [Term]
+                                                            ) [AddOpTerm]
+                                                          ) [ExprWithoutMinus]
+                                                        ) [AssignValue]
+                                                      ) [DesignatorStatementClass]
+                                                    ) [Statements]
+                                                    DesignatorStatementClass(
+                                                      AssignValue(
+                                                        DesignatorWithoutScopeResolution(
+                                                         h
+                                                        ) [DesignatorWithoutScopeResolution]
+                                                        Assign(
+                                                        ) [Assign]
+                                                        ExprWithoutMinus(
+                                                          Term(
+                                                            NoMulFactor(
+                                                              FactorVariable(
+                                                                DesignatorWithScopeResolutionAndIndexing(
+                                                                 A
+                                                                 xxx
+                                                                  ExprWithoutMinus(
+                                                                    Term(
+                                                                      NoMulFactor(
+                                                                        FactorNumConst(
+                                                                         2
+                                                                        ) [FactorNumConst]
+                                                                      ) [NoMulFactor]
+                                                                    ) [Term]
+                                                                    NoAddOpTerm(
+                                                                    ) [NoAddOpTerm]
+                                                                  ) [ExprWithoutMinus]
+                                                                ) [DesignatorWithScopeResolutionAndIndexing]
+                                                              ) [FactorVariable]
+                                                            ) [NoMulFactor]
+                                                          ) [Term]
+                                                          NoAddOpTerm(
+                                                          ) [NoAddOpTerm]
+                                                        ) [ExprWithoutMinus]
+                                                      ) [AssignValue]
+                                                    ) [DesignatorStatementClass]
+                                                  ) [Statements]
+                                                  DesignatorStatementClass(
+                                                    AssignValue(
+                                                      DesignatorWithoutScopeResolution(
+                                                       h
+                                                      ) [DesignatorWithoutScopeResolution]
+                                                      Assign(
+                                                      ) [Assign]
+                                                      ExprWithoutMinus(
+                                                        Term(
+                                                          NoMulFactor(
+                                                            Function(
+                                                              DesignatorWithoutScopeResolution(
+                                                               len
+                                                              ) [DesignatorWithoutScopeResolution]
+                                                              CallWithActPars(
+                                                                CallStart(
+                                                                ) [CallStart]
+                                                                ActPars(
+                                                                  SingleExpr(
+                                                                    ExprWithoutMinus(
+                                                                      Term(
+                                                                        NoMulFactor(
+                                                                          FactorVariable(
+                                                                            DesignatorWithScopeResolution(
+                                                                             A
+                                                                             yyy
+                                                                            ) [DesignatorWithScopeResolution]
+                                                                          ) [FactorVariable]
+                                                                        ) [NoMulFactor]
+                                                                      ) [Term]
+                                                                      NoAddOpTerm(
+                                                                      ) [NoAddOpTerm]
+                                                                    ) [ExprWithoutMinus]
+                                                                  ) [SingleExpr]
+                                                                ) [ActPars]
+                                                              ) [CallWithActPars]
+                                                            ) [Function]
+                                                          ) [NoMulFactor]
+                                                        ) [Term]
+                                                        AddOpTerm(
+                                                          NoAddOpTerm(
+                                                          ) [NoAddOpTerm]
+                                                          Plus(
+                                                          ) [Plus]
+                                                          Term(
+                                                            NoMulFactor(
+                                                              Function(
+                                                                DesignatorWithoutScopeResolution(
+                                                                 ord
+                                                                ) [DesignatorWithoutScopeResolution]
+                                                                CallWithActPars(
+                                                                  CallStart(
+                                                                  ) [CallStart]
+                                                                  ActPars(
+                                                                    SingleExpr(
+                                                                      ExprWithoutMinus(
+                                                                        Term(
+                                                                          NoMulFactor(
+                                                                            Function(
+                                                                              DesignatorWithoutScopeResolution(
+                                                                               chr
+                                                                              ) [DesignatorWithoutScopeResolution]
+                                                                              CallWithActPars(
+                                                                                CallStart(
+                                                                                ) [CallStart]
+                                                                                ActPars(
+                                                                                  SingleExpr(
+                                                                                    ExprWithoutMinus(
+                                                                                      Term(
+                                                                                        NoMulFactor(
+                                                                                          FactorNumConst(
+                                                                                           65
+                                                                                          ) [FactorNumConst]
+                                                                                        ) [NoMulFactor]
+                                                                                      ) [Term]
+                                                                                      NoAddOpTerm(
+                                                                                      ) [NoAddOpTerm]
+                                                                                    ) [ExprWithoutMinus]
+                                                                                  ) [SingleExpr]
+                                                                                ) [ActPars]
+                                                                              ) [CallWithActPars]
+                                                                            ) [Function]
+                                                                          ) [NoMulFactor]
+                                                                        ) [Term]
+                                                                        NoAddOpTerm(
+                                                                        ) [NoAddOpTerm]
+                                                                      ) [ExprWithoutMinus]
+                                                                    ) [SingleExpr]
+                                                                  ) [ActPars]
+                                                                ) [CallWithActPars]
+                                                              ) [Function]
+                                                            ) [NoMulFactor]
+                                                          ) [Term]
+                                                        ) [AddOpTerm]
+                                                      ) [ExprWithoutMinus]
+                                                    ) [AssignValue]
+                                                  ) [DesignatorStatementClass]
+                                                ) [Statements]
+                                                DesignatorStatementClass(
+                                                  AssignValue(
+                                                    DesignatorWithScopeResolution(
+                                                     A
+                                                     xxx
+                                                    ) [DesignatorWithScopeResolution]
+                                                    Assign(
+                                                    ) [Assign]
+                                                    ExprWithoutMinus(
+                                                      Term(
+                                                        NoMulFactor(
+                                                          ConstructorArray(
+                                                            TypeWithoutScopeResolution(
+                                                             int
+                                                            ) [TypeWithoutScopeResolution]
+                                                            ExprWithoutMinus(
+                                                              Term(
+                                                                NoMulFactor(
+                                                                  FactorVariable(
+                                                                    DesignatorWithoutScopeResolution(
+                                                                     z
+                                                                    ) [DesignatorWithoutScopeResolution]
+                                                                  ) [FactorVariable]
+                                                                ) [NoMulFactor]
+                                                              ) [Term]
+                                                              NoAddOpTerm(
+                                                              ) [NoAddOpTerm]
+                                                            ) [ExprWithoutMinus]
+                                                          ) [ConstructorArray]
+                                                        ) [NoMulFactor]
+                                                      ) [Term]
+                                                      NoAddOpTerm(
+                                                      ) [NoAddOpTerm]
+                                                    ) [ExprWithoutMinus]
+                                                  ) [AssignValue]
+                                                ) [DesignatorStatementClass]
+                                              ) [Statements]
+                                              DesignatorStatementClass(
+                                                AssignValue(
+                                                  DesignatorWithoutScopeResolutionAndIndexing(
+                                                   y
+                                                    ExprWithoutMinus(
+                                                      Term(
+                                                        NoMulFactor(
+                                                          FactorNumConst(
+                                                           2
+                                                          ) [FactorNumConst]
+                                                        ) [NoMulFactor]
+                                                      ) [Term]
+                                                      NoAddOpTerm(
+                                                      ) [NoAddOpTerm]
+                                                    ) [ExprWithoutMinus]
+                                                  ) [DesignatorWithoutScopeResolutionAndIndexing]
+                                                  Assign(
+                                                  ) [Assign]
+                                                  ExprWithoutMinus(
+                                                    Term(
+                                                      NoMulFactor(
+                                                        Function(
+                                                          DesignatorWithScopeResolution(
+                                                           A
+                                                           func
+                                                          ) [DesignatorWithScopeResolution]
+                                                          CallWithoutActPars(
+                                                            CallStart(
+                                                            ) [CallStart]
+                                                          ) [CallWithoutActPars]
+                                                        ) [Function]
+                                                      ) [NoMulFactor]
+                                                    ) [Term]
+                                                    NoAddOpTerm(
+                                                    ) [NoAddOpTerm]
+                                                  ) [ExprWithoutMinus]
+                                                ) [AssignValue]
+                                              ) [DesignatorStatementClass]
+                                            ) [Statements]
+                                            IfStatement(
+                                              ValidCondition(
+                                                OrCondTerm(
+                                                  OrCondTerm(
+                                                    SingleCondTerm(
+                                                      CondTerm(
+                                                        SingleCondFact(
+                                                          CondFactWithMultipleExpr(
+                                                            ExprWithoutMinus(
+                                                              Term(
+                                                                NoMulFactor(
+                                                                  FactorVariable(
+                                                                    DesignatorWithoutScopeResolution(
+                                                                     f
+                                                                    ) [DesignatorWithoutScopeResolution]
+                                                                  ) [FactorVariable]
+                                                                ) [NoMulFactor]
+                                                              ) [Term]
+                                                              NoAddOpTerm(
+                                                              ) [NoAddOpTerm]
+                                                            ) [ExprWithoutMinus]
+                                                            NotEquals(
+                                                            ) [NotEquals]
+                                                            ExprWithoutMinus(
+                                                              Term(
+                                                                NoMulFactor(
+                                                                  FactorVariable(
+                                                                    DesignatorWithoutScopeResolution(
+                                                                     g
+                                                                    ) [DesignatorWithoutScopeResolution]
+                                                                  ) [FactorVariable]
+                                                                ) [NoMulFactor]
+                                                              ) [Term]
+                                                              NoAddOpTerm(
+                                                              ) [NoAddOpTerm]
+                                                            ) [ExprWithoutMinus]
+                                                          ) [CondFactWithMultipleExpr]
+                                                        ) [SingleCondFact]
+                                                      ) [CondTerm]
+                                                    ) [SingleCondTerm]
+                                                    CondTerm(
+                                                      SingleCondFact(
+                                                        CondFactWithMultipleExpr(
+                                                          ExprWithoutMinus(
+                                                            Term(
+                                                              NoMulFactor(
+                                                                FactorVariable(
+                                                                  DesignatorWithoutScopeResolution(
+                                                                   a
+                                                                  ) [DesignatorWithoutScopeResolution]
+                                                                ) [FactorVariable]
+                                                              ) [NoMulFactor]
+                                                            ) [Term]
+                                                            NoAddOpTerm(
+                                                            ) [NoAddOpTerm]
+                                                          ) [ExprWithoutMinus]
+                                                          Greater(
+                                                          ) [Greater]
+                                                          ExprWithoutMinus(
+                                                            Term(
+                                                              NoMulFactor(
+                                                                FactorCharConst(
+                                                                 b
+                                                                ) [FactorCharConst]
+                                                              ) [NoMulFactor]
+                                                            ) [Term]
+                                                            NoAddOpTerm(
+                                                            ) [NoAddOpTerm]
+                                                          ) [ExprWithoutMinus]
+                                                        ) [CondFactWithMultipleExpr]
+                                                      ) [SingleCondFact]
+                                                    ) [CondTerm]
+                                                  ) [OrCondTerm]
+                                                  CondTerm(
+                                                    SingleCondFact(
+                                                      CondFactWithMultipleExpr(
+                                                        ExprWithoutMinus(
+                                                          Term(
+                                                            NoMulFactor(
+                                                              FactorVariable(
+                                                                DesignatorWithoutScopeResolution(
+                                                                 arr
+                                                                ) [DesignatorWithoutScopeResolution]
+                                                              ) [FactorVariable]
+                                                            ) [NoMulFactor]
+                                                          ) [Term]
+                                                          NoAddOpTerm(
+                                                          ) [NoAddOpTerm]
+                                                        ) [ExprWithoutMinus]
+                                                        Equals(
+                                                        ) [Equals]
+                                                        ExprWithoutMinus(
+                                                          Term(
+                                                            NoMulFactor(
+                                                              FactorVariable(
+                                                                DesignatorWithScopeResolution(
+                                                                 A
+                                                                 xxx
+                                                                ) [DesignatorWithScopeResolution]
+                                                              ) [FactorVariable]
+                                                            ) [NoMulFactor]
+                                                          ) [Term]
+                                                          NoAddOpTerm(
+                                                          ) [NoAddOpTerm]
+                                                        ) [ExprWithoutMinus]
+                                                      ) [CondFactWithMultipleExpr]
+                                                    ) [SingleCondFact]
+                                                  ) [CondTerm]
+                                                ) [OrCondTerm]
+                                              ) [ValidCondition]
+                                              StatementBlock(
+                                                NoStatements(
+                                                ) [NoStatements]
+                                              ) [StatementBlock]
+                                            ) [IfStatement]
+                                          ) [Statements]
+                                          IfElseStatement(
+                                            ValidCondition(
+                                              SingleCondTerm(
+                                                CondTerm(
+                                                  SingleCondFact(
+                                                    CondFactWithSingleExpr(
+                                                      ExprWithoutMinus(
+                                                        Term(
+                                                          NoMulFactor(
+                                                            FactorVariable(
+                                                              DesignatorWithoutScopeResolution(
+                                                               bo
+                                                              ) [DesignatorWithoutScopeResolution]
+                                                            ) [FactorVariable]
+                                                          ) [NoMulFactor]
+                                                        ) [Term]
+                                                        NoAddOpTerm(
+                                                        ) [NoAddOpTerm]
+                                                      ) [ExprWithoutMinus]
+                                                    ) [CondFactWithSingleExpr]
+                                                  ) [SingleCondFact]
+                                                ) [CondTerm]
+                                              ) [SingleCondTerm]
+                                            ) [ValidCondition]
+                                            StatementBlock(
+                                              NoStatements(
+                                              ) [NoStatements]
+                                            ) [StatementBlock]
+                                            StatementBlock(
+                                              NoStatements(
+                                              ) [NoStatements]
+                                            ) [StatementBlock]
+                                          ) [IfElseStatement]
+                                        ) [Statements]
+                                        ForStatement(
+                                          ForStart(
+                                          ) [ForStart]
+                                          WithDesignatorStatementList(
+                                            MultipleDesignatorStatements(
+                                              SingleDesignatorStatement(
+                                                AssignValue(
+                                                  DesignatorWithoutScopeResolution(
+                                                   i
+                                                  ) [DesignatorWithoutScopeResolution]
+                                                  Assign(
+                                                  ) [Assign]
+                                                  ExprWithoutMinus(
+                                                    Term(
+                                                      NoMulFactor(
+                                                        FactorNumConst(
+                                                         0
+                                                        ) [FactorNumConst]
+                                                      ) [NoMulFactor]
+                                                    ) [Term]
+                                                    NoAddOpTerm(
+                                                    ) [NoAddOpTerm]
+                                                  ) [ExprWithoutMinus]
+                                                ) [AssignValue]
+                                              ) [SingleDesignatorStatement]
+                                              AssignValue(
+                                                DesignatorWithoutScopeResolution(
+                                                 j
+                                                ) [DesignatorWithoutScopeResolution]
+                                                Assign(
+                                                ) [Assign]
+                                                ExprWithoutMinus(
+                                                  Term(
+                                                    NoMulFactor(
+                                                      FactorNumConst(
+                                                       0
+                                                      ) [FactorNumConst]
+                                                    ) [NoMulFactor]
+                                                  ) [Term]
+                                                  NoAddOpTerm(
+                                                  ) [NoAddOpTerm]
+                                                ) [ExprWithoutMinus]
+                                              ) [AssignValue]
+                                            ) [MultipleDesignatorStatements]
+                                          ) [WithDesignatorStatementList]
+                                          WithCondFact(
+                                            CondFactWithMultipleExpr(
+                                              ExprWithoutMinus(
+                                                Term(
+                                                  NoMulFactor(
+                                                    FactorVariable(
+                                                      DesignatorWithoutScopeResolution(
+                                                       i
+                                                      ) [DesignatorWithoutScopeResolution]
+                                                    ) [FactorVariable]
+                                                  ) [NoMulFactor]
+                                                ) [Term]
+                                                NoAddOpTerm(
+                                                ) [NoAddOpTerm]
+                                              ) [ExprWithoutMinus]
+                                              Less(
+                                              ) [Less]
+                                              ExprWithoutMinus(
+                                                Term(
+                                                  NoMulFactor(
+                                                    FactorNumConst(
+                                                     10
+                                                    ) [FactorNumConst]
+                                                  ) [NoMulFactor]
+                                                ) [Term]
+                                                NoAddOpTerm(
+                                                ) [NoAddOpTerm]
+                                              ) [ExprWithoutMinus]
+                                            ) [CondFactWithMultipleExpr]
+                                          ) [WithCondFact]
+                                          WithDesignatorStatementList(
+                                            SingleDesignatorStatement(
+                                              IncrementDesignator(
+                                                DesignatorWithoutScopeResolution(
+                                                 i
+                                                ) [DesignatorWithoutScopeResolution]
+                                              ) [IncrementDesignator]
+                                            ) [SingleDesignatorStatement]
+                                          ) [WithDesignatorStatementList]
+                                          StatementBlock(
+                                            Statements(
+                                              Statements(
+                                                NoStatements(
+                                                ) [NoStatements]
+                                                ForStatement(
+                                                  ForStart(
+                                                  ) [ForStart]
+                                                  WithDesignatorStatementList(
+                                                    SingleDesignatorStatement(
+                                                      AssignValue(
+                                                        DesignatorWithoutScopeResolution(
+                                                         j
+                                                        ) [DesignatorWithoutScopeResolution]
+                                                        Assign(
+                                                        ) [Assign]
+                                                        ExprWithoutMinus(
+                                                          Term(
+                                                            NoMulFactor(
+                                                              FactorNumConst(
+                                                               0
+                                                              ) [FactorNumConst]
+                                                            ) [NoMulFactor]
+                                                          ) [Term]
+                                                          NoAddOpTerm(
+                                                          ) [NoAddOpTerm]
+                                                        ) [ExprWithoutMinus]
+                                                      ) [AssignValue]
+                                                    ) [SingleDesignatorStatement]
+                                                  ) [WithDesignatorStatementList]
+                                                  WithCondFact(
+                                                    CondFactWithMultipleExpr(
+                                                      ExprWithoutMinus(
+                                                        Term(
+                                                          NoMulFactor(
+                                                            FactorVariable(
+                                                              DesignatorWithoutScopeResolution(
+                                                               j
+                                                              ) [DesignatorWithoutScopeResolution]
+                                                            ) [FactorVariable]
+                                                          ) [NoMulFactor]
+                                                        ) [Term]
+                                                        NoAddOpTerm(
+                                                        ) [NoAddOpTerm]
+                                                      ) [ExprWithoutMinus]
+                                                      Less(
+                                                      ) [Less]
+                                                      ExprWithoutMinus(
+                                                        Term(
+                                                          NoMulFactor(
+                                                            FactorVariable(
+                                                              DesignatorWithoutScopeResolution(
+                                                               i
+                                                              ) [DesignatorWithoutScopeResolution]
+                                                            ) [FactorVariable]
+                                                          ) [NoMulFactor]
+                                                        ) [Term]
+                                                        NoAddOpTerm(
+                                                        ) [NoAddOpTerm]
+                                                      ) [ExprWithoutMinus]
+                                                    ) [CondFactWithMultipleExpr]
+                                                  ) [WithCondFact]
+                                                  WithDesignatorStatementList(
+                                                    SingleDesignatorStatement(
+                                                      IncrementDesignator(
+                                                        DesignatorWithoutScopeResolution(
+                                                         j
+                                                        ) [DesignatorWithoutScopeResolution]
+                                                      ) [IncrementDesignator]
+                                                    ) [SingleDesignatorStatement]
+                                                  ) [WithDesignatorStatementList]
+                                                  StatementBlock(
+                                                    Statements(
+                                                      NoStatements(
+                                                      ) [NoStatements]
+                                                      ContinueStatement(
+                                                      ) [ContinueStatement]
+                                                    ) [Statements]
+                                                  ) [StatementBlock]
+                                                ) [ForStatement]
+                                              ) [Statements]
+                                              BreakStatement(
+                                              ) [BreakStatement]
+                                            ) [Statements]
+                                          ) [StatementBlock]
+                                        ) [ForStatement]
+                                      ) [Statements]
+                                      ReadStatement(
+                                        DesignatorWithScopeResolutionAndIndexing(
+                                         A
+                                         yyy
+                                          ExprWithoutMinus(
+                                            Term(
+                                              NoMulFactor(
+                                                FactorNumConst(
+                                                 2
+                                                ) [FactorNumConst]
+                                              ) [NoMulFactor]
+                                            ) [Term]
+                                            NoAddOpTerm(
+                                            ) [NoAddOpTerm]
+                                          ) [ExprWithoutMinus]
+                                        ) [DesignatorWithScopeResolutionAndIndexing]
+                                      ) [ReadStatement]
+                                    ) [Statements]
+                                    PrintStatementWithoutNumConst(
+                                      ExprWithoutMinus(
+                                        Term(
+                                          NoMulFactor(
+                                            FactorVariable(
+                                              DesignatorWithoutScopeResolutionAndIndexing(
+                                               y
+                                                ExprWithoutMinus(
+                                                  Term(
+                                                    NoMulFactor(
+                                                      FactorNumConst(
+                                                       3
+                                                      ) [FactorNumConst]
+                                                    ) [NoMulFactor]
+                                                  ) [Term]
+                                                  NoAddOpTerm(
+                                                  ) [NoAddOpTerm]
+                                                ) [ExprWithoutMinus]
+                                              ) [DesignatorWithoutScopeResolutionAndIndexing]
+                                            ) [FactorVariable]
+                                          ) [NoMulFactor]
+                                        ) [Term]
+                                        NoAddOpTerm(
+                                        ) [NoAddOpTerm]
+                                      ) [ExprWithoutMinus]
+                                    ) [PrintStatementWithoutNumConst]
+                                  ) [Statements]
+                                  PrintStatementWithNumConst(
+                                    ExprWithoutMinus(
+                                      Term(
+                                        NoMulFactor(
+                                          FactorVariable(
+                                            DesignatorWithoutScopeResolution(
+                                             i
+                                            ) [DesignatorWithoutScopeResolution]
+                                          ) [FactorVariable]
+                                        ) [NoMulFactor]
+                                      ) [Term]
+                                      NoAddOpTerm(
+                                      ) [NoAddOpTerm]
+                                    ) [ExprWithoutMinus]
+                                   2
+                                  ) [PrintStatementWithNumConst]
+                                ) [Statements]
+                                PrintStatementWithNumConst(
+                                  ExprWithoutMinus(
+                                    Term(
+                                      NoMulFactor(
+                                        FactorBoolConst(
+                                         1
+                                        ) [FactorBoolConst]
+                                      ) [NoMulFactor]
+                                    ) [Term]
+                                    NoAddOpTerm(
+                                    ) [NoAddOpTerm]
+                                  ) [ExprWithoutMinus]
+                                 3
+                                ) [PrintStatementWithNumConst]
+                              ) [Statements]
+                              DesignatorStatementClass(
+                                AssignValue(
+                                  DesignatorWithoutScopeResolutionAndIndexing(
+                                   y
+                                    ExprWithoutMinus(
+                                      Term(
+                                        NoMulFactor(
+                                          FactorNumConst(
+                                           3
+                                          ) [FactorNumConst]
+                                        ) [NoMulFactor]
+                                      ) [Term]
+                                      NoAddOpTerm(
+                                      ) [NoAddOpTerm]
+                                    ) [ExprWithoutMinus]
+                                  ) [DesignatorWithoutScopeResolutionAndIndexing]
+                                  Assign(
+                                  ) [Assign]
+                                  ExprWithoutMinus(
+                                    Term(
+                                      NoMulFactor(
+                                        FactorVariable(
+                                          DesignatorWithoutScopeResolutionAndIndexing(
+                                           y
+                                            ExprWithoutMinus(
+                                              Term(
+                                                NoMulFactor(
+                                                  FactorNumConst(
+                                                   2
+                                                  ) [FactorNumConst]
+                                                ) [NoMulFactor]
+                                              ) [Term]
+                                              NoAddOpTerm(
+                                              ) [NoAddOpTerm]
+                                            ) [ExprWithoutMinus]
+                                          ) [DesignatorWithoutScopeResolutionAndIndexing]
+                                        ) [FactorVariable]
+                                      ) [NoMulFactor]
+                                    ) [Term]
+                                    NoAddOpTerm(
+                                    ) [NoAddOpTerm]
+                                  ) [ExprWithoutMinus]
+                                ) [AssignValue]
+                              ) [DesignatorStatementClass]
+                            ) [Statements]
+                            DesignatorStatementClass(
+                              AssignValue(
+                                DesignatorWithoutScopeResolution(
+                                 y
+                                ) [DesignatorWithoutScopeResolution]
+                                Assign(
+                                ) [Assign]
+                                ExprWithoutMinus(
+                                  Term(
+                                    NoMulFactor(
+                                      FactorVariable(
+                                        DesignatorWithoutScopeResolution(
+                                         y
+                                        ) [DesignatorWithoutScopeResolution]
+                                      ) [FactorVariable]
+                                    ) [NoMulFactor]
+                                  ) [Term]
+                                  NoAddOpTerm(
+                                  ) [NoAddOpTerm]
+                                ) [ExprWithoutMinus]
+                              ) [AssignValue]
+                            ) [DesignatorStatementClass]
+                          ) [Statements]
+                          DesignatorStatementClass(
+                            IncrementDesignator(
+                              DesignatorWithoutScopeResolution(
+                               i
+                              ) [DesignatorWithoutScopeResolution]
+                            ) [IncrementDesignator]
+                          ) [DesignatorStatementClass]
+                        ) [Statements]
+                        DesignatorStatementClass(
+                          DecrementDesignator(
+                            DesignatorWithScopeResolutionAndIndexing(
+                             A
+                             xxx
+                              ExprWithoutMinus(
+                                Term(
+                                  NoMulFactor(
+                                    FactorNumConst(
+                                     2
+                                    ) [FactorNumConst]
+                                  ) [NoMulFactor]
+                                ) [Term]
+                                NoAddOpTerm(
+                                ) [NoAddOpTerm]
+                              ) [ExprWithoutMinus]
+                            ) [DesignatorWithScopeResolutionAndIndexing]
+                          ) [DecrementDesignator]
+                        ) [DesignatorStatementClass]
+                      ) [Statements]
+                      DesignatorStatementClass(
+                        FunctionCall(
+                          DesignatorWithScopeResolution(
+                           A
+                           func
+                          ) [DesignatorWithScopeResolution]
+                          CallWithoutActPars(
+                            CallStart(
+                            ) [CallStart]
+                          ) [CallWithoutActPars]
+                        ) [FunctionCall]
+                      ) [DesignatorStatementClass]
+                    ) [Statements]
+                    DesignatorStatementClass(
+                      FunctionCall(
+                        DesignatorWithScopeResolution(
+                         A
+                         func2
+                        ) [DesignatorWithScopeResolution]
+                        CallWithActPars(
+                          CallStart(
+                          ) [CallStart]
+                          ActPars(
+                            SingleExpr(
+                              ExprWithoutMinus(
+                                Term(
+                                  NoMulFactor(
+                                    FactorNumConst(
+                                     2
+                                    ) [FactorNumConst]
+                                  ) [NoMulFactor]
+                                ) [Term]
+                                NoAddOpTerm(
+                                ) [NoAddOpTerm]
+                              ) [ExprWithoutMinus]
+                            ) [SingleExpr]
+                          ) [ActPars]
+                        ) [CallWithActPars]
+                      ) [FunctionCall]
+                    ) [DesignatorStatementClass]
+                  ) [Statements]
+                  DesignatorStatementClass(
+                    FunctionCall(
+                      DesignatorWithoutScopeResolution(
+                       fun
+                      ) [DesignatorWithoutScopeResolution]
+                      CallWithActPars(
+                        CallStart(
+                        ) [CallStart]
+                        ActPars(
+                          MultipleExpr(
+                            MultipleExpr(
+                              SingleExpr(
+                                ExprWithoutMinus(
+                                  Term(
+                                    NoMulFactor(
+                                      FactorNumConst(
+                                       2
+                                      ) [FactorNumConst]
+                                    ) [NoMulFactor]
+                                  ) [Term]
+                                  NoAddOpTerm(
+                                  ) [NoAddOpTerm]
+                                ) [ExprWithoutMinus]
+                              ) [SingleExpr]
+                              ExprWithoutMinus(
+                                Term(
+                                  NoMulFactor(
+                                    FactorCharConst(
+                                     b
+                                    ) [FactorCharConst]
+                                  ) [NoMulFactor]
+                                ) [Term]
+                                NoAddOpTerm(
+                                ) [NoAddOpTerm]
+                              ) [ExprWithoutMinus]
+                            ) [MultipleExpr]
+                            ExprWithoutMinus(
+                              Term(
+                                NoMulFactor(
+                                  FactorVariable(
+                                    DesignatorWithScopeResolution(
+                                     A
+                                     xxx
+                                    ) [DesignatorWithScopeResolution]
+                                  ) [FactorVariable]
+                                ) [NoMulFactor]
+                              ) [Term]
+                              NoAddOpTerm(
+                              ) [NoAddOpTerm]
+                            ) [ExprWithoutMinus]
+                          ) [MultipleExpr]
+                        ) [ActPars]
+                      ) [CallWithActPars]
+                    ) [FunctionCall]
+                  ) [DesignatorStatementClass]
+                ) [Statements]
+                DesignatorStatementClass(
+                  ArrayAssignement(
+                    DesignatorComma(
+                      DesignatorComma(
+                        DesignatorComma(
+                          DesignatorComma(
+                            DesignatorComma(
+                              NoDesignatorList(
+                              ) [NoDesignatorList]
+                              WithDesignator(
+                                DesignatorWithoutScopeResolution(
+                                 h
+                                ) [DesignatorWithoutScopeResolution]
+                              ) [WithDesignator]
+                            ) [DesignatorComma]
+                            WithDesignator(
+                              DesignatorWithScopeResolutionAndIndexing(
+                               A
+                               xxx
+                                ExprWithoutMinus(
+                                  Term(
+                                    NoMulFactor(
+                                      FactorNumConst(
+                                       3
+                                      ) [FactorNumConst]
+                                    ) [NoMulFactor]
+                                  ) [Term]
+                                  NoAddOpTerm(
+                                  ) [NoAddOpTerm]
+                                ) [ExprWithoutMinus]
+                              ) [DesignatorWithScopeResolutionAndIndexing]
+                            ) [WithDesignator]
+                          ) [DesignatorComma]
+                          WithDesignator(
+                            DesignatorWithoutScopeResolution(
+                             i
+                            ) [DesignatorWithoutScopeResolution]
+                          ) [WithDesignator]
+                        ) [DesignatorComma]
+                        WithDesignator(
+                          DesignatorWithoutScopeResolution(
+                           z
+                          ) [DesignatorWithoutScopeResolution]
+                        ) [WithDesignator]
+                      ) [DesignatorComma]
+                      WithoutDesignator(
+                      ) [WithoutDesignator]
+                    ) [DesignatorComma]
+                    DesignatorWithoutScopeResolution(
+                     arr
+                    ) [DesignatorWithoutScopeResolution]
+                    DesignatorWithScopeResolution(
+                     A
+                     xxx
+                    ) [DesignatorWithScopeResolution]
+                  ) [ArrayAssignement]
+                ) [DesignatorStatementClass]
+              ) [Statements]
+              ReadStatement(
+                DesignatorWithoutScopeResolution(
+                 h
+                ) [DesignatorWithoutScopeResolution]
+              ) [ReadStatement]
+            ) [Statements]
+            DesignatorStatementClass(
+              IncrementDesignator(
+                DesignatorWithoutScopeResolution(
+                 z
+                ) [DesignatorWithoutScopeResolution]
+              ) [IncrementDesignator]
+            ) [DesignatorStatementClass]
+          ) [Statements]
+          DesignatorStatementClass(
+            DecrementDesignator(
+              DesignatorWithoutScopeResolution(
+               z
+              ) [DesignatorWithoutScopeResolution]
+            ) [DecrementDesignator]
+          ) [DesignatorStatementClass]
+        ) [Statements]
+        ReturnStatement(
+        ) [ReturnStatement]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDecls]
+) [Program]
+INFO  22:16:36,868 - ===================================
+INFO  22:16:36,881 - Deklarisan niz xxx na liniji 4
+INFO  22:16:36,881 - Deklarisan niz yyy na liniji 5
+INFO  22:16:36,881 - Deklarisana konstanta zzz na liniji 6
+INFO  22:16:36,882 - Obradjuje se funkcija func na liniji 9
+INFO  22:16:36,882 - Obradjuje se funkcija func2 na liniji 12
+INFO  22:16:36,882 - Deklarisana promenljiva a na liniji 12
+INFO  22:16:36,882 - Deklarisana konstanta a na liniji 18
+INFO  22:16:36,882 - Deklarisana konstanta b na liniji 18
+INFO  22:16:36,883 - Deklarisana konstanta c na liniji 18
+INFO  22:16:36,883 - Deklarisana konstanta d na liniji 18
+INFO  22:16:36,883 - Deklarisana promenljiva f na liniji 19
+INFO  22:16:36,884 - Deklarisan niz e na liniji 19
+INFO  22:16:36,884 - Deklarisana promenljiva g na liniji 19
+INFO  22:16:36,884 - Deklarisana promenljiva h na liniji 20
+INFO  22:16:36,884 - Deklarisana promenljiva i na liniji 20
+INFO  22:16:36,884 - Deklarisana promenljiva j na liniji 20
+INFO  22:16:36,884 - Deklarisan niz y na liniji 21
+INFO  22:16:36,884 - Deklarisan niz z na liniji 22
+INFO  22:16:36,884 - Deklarisana promenljiva t na liniji 22
+INFO  22:16:36,884 - Deklarisana konstanta yy na liniji 23
+INFO  22:16:36,884 - Deklarisana promenljiva bo na liniji 24
+INFO  22:16:36,884 - Deklarisan niz arr na liniji 25
+INFO  22:16:36,884 - Obradjuje se funkcija fun na liniji 27
+INFO  22:16:36,884 - Deklarisana promenljiva a na liniji 27
+INFO  22:16:36,884 - Deklarisana promenljiva b na liniji 27
+INFO  22:16:36,884 - Deklarisan niz w na liniji 27
+INFO  22:16:36,884 - Deklarisan niz ch na liniji 27
+INFO  22:16:36,885 - Deklarisan niz f na liniji 27
+INFO  22:16:36,885 - Obradjuje se funkcija main na liniji 31
+INFO  22:16:36,885 - Deklarisana promenljiva z na liniji 31
+INFO  22:16:36,885 - Deklarisana promenljiva a na liniji 31
+INFO  22:16:36,885 - Uspesna dodela vrednosti na liniji 32
+INFO  22:16:36,885 - Uspesna dodela vrednosti na liniji 33
+INFO  22:16:36,885 - Uspesna dodela vrednosti na liniji 34
+INFO  22:16:36,885 - Uspesna dodela vrednosti na liniji 35
+INFO  22:16:36,886 - Poziv funkcije A::func2 na liniji 36
+INFO  22:16:36,886 - Poziv funkcije fun na liniji 36
+INFO  22:16:36,886 - Uspesna dodela vrednosti na liniji 36
+INFO  22:16:36,886 - Uspesna dodela vrednosti na liniji 37
+INFO  22:16:36,886 - Poziv funkcije len na liniji 38
+INFO  22:16:36,886 - Poziv funkcije chr na liniji 38
+INFO  22:16:36,887 - Poziv funkcije ord na liniji 38
+INFO  22:16:36,887 - Uspesna dodela vrednosti na liniji 38
+INFO  22:16:36,887 - Uspesna dodela vrednosti na liniji 39
+INFO  22:16:36,887 - Poziv funkcije A::func na liniji 40
+INFO  22:16:36,887 - Uspesna dodela vrednosti na liniji 40
+INFO  22:16:36,887 - Uspesno obradjen condition na liniji 42
+INFO  22:16:36,887 - Uspesno obradjena if naredba na liniji 42
+INFO  22:16:36,888 - Uspesno obradjen condition na liniji 43
+INFO  22:16:36,888 - Uspesno obradjena if-else naredba na liniji 43
+INFO  22:16:36,888 - Uspesna dodela vrednosti na liniji 46
+INFO  22:16:36,888 - Uspesna dodela vrednosti na liniji 46
+INFO  22:16:36,888 - Uspesna dodela vrednosti na liniji 47
+INFO  22:16:36,889 - Uspesna read naredba na liniji 53
+INFO  22:16:36,889 - Uspesna print naredba na liniji 54
+INFO  22:16:36,889 - Uspesna print naredba na liniji 55
+INFO  22:16:36,889 - Uspesna print naredba na liniji 56
+INFO  22:16:36,889 - Uspesna dodela vrednosti na liniji 58
+INFO  22:16:36,889 - Uspesna dodela vrednosti na liniji 59
+INFO  22:16:36,890 - Poziv funkcije A::func na liniji 63
+INFO  22:16:36,890 - Poziv funkcije A::func2 na liniji 64
+INFO  22:16:36,890 - Poziv funkcije fun na liniji 65
+INFO  22:16:36,890 - Uspesna read naredba na liniji 69
+INFO  22:16:36,890 -  Print count calls = 3
+INFO  22:16:36,890 -  Deklarisanih promenljivih ima = 21
+INFO  22:16:36,891 - ===================================
+INFO  22:16:36,892 - Parsiranje uspesno zavrseno.

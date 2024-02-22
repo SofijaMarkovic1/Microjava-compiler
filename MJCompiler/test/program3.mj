@@ -1,0 +1,75 @@
+program MJTest
+
+namespace A {
+	int xxx[];
+	char yyy[];
+	const int zzz = 1;
+	
+	{
+		char func() {
+			return yyy[1];
+		}
+		int func2(int a) {
+			return zzz;
+		}
+	}
+}
+
+const int a = 1, b = 3, c = 1, d = 1;
+char f, e[], g;
+int h, i, j;
+char y[];
+char z[], t;
+const int yy = 1;
+bool bo;
+int arr[];
+{
+	int fun(int a, char b, int w[]) char ch[]; int f[]; {
+		return A::xxx[2];
+	}
+	
+	void main() int z; char a; {
+		e[2] = a;
+		a = e[2];
+		a = A::yyy[2];
+		h = A::xxx[3];
+		h = c * b + fun(A::func2(h), A::yyy[2], A::xxx);
+		h = A::xxx[2];
+		h = len(A::yyy) + ord(chr(65));
+		A::xxx = new int[z];
+		y[2] = A::func();
+		
+		if (f != g || a > 'b' || arr == A::xxx) {}
+		if (bo) {}
+		else {}
+		
+		for (i = 0, j = 0; i < 10; i++) {
+			for (j = 0; j < i; j++) {
+				continue;
+			}
+			break;
+		}
+		
+		read(A::yyy[2]);
+		print(y[3]);
+		print(i,2);
+		print(true, 3);
+		
+		y[3] = y[2];
+		y = y;
+		i++;
+		A::xxx[2]--;
+		
+		A::func();
+		A::func2(2);
+		fun(2, 'b', A::xxx);
+		
+		[h, A::xxx[3], i, z, , *arr] = A::xxx;
+		
+		read(h);
+		z++;
+		z--;
+		
+		return;
+	}
+}

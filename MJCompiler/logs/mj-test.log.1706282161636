@@ -1,0 +1,156 @@
+INFO  16:15:27,061 - Compiling source file: C:\projekat\workspace\MJCompiler\test\program.mj
+INFO  16:15:27,111 - #2 program
+INFO  16:15:27,111 - #13 MJProgram
+INFO  16:15:27,111 - #13 int
+INFO  16:15:27,112 - #13 x
+INFO  16:15:27,113 - #9 ,
+INFO  16:15:27,113 - #13 y
+INFO  16:15:27,114 - #8 ;
+INFO  16:15:27,114 - #3 {
+INFO  16:15:27,114 - #19 void
+INFO  16:15:27,115 - #13 main
+INFO  16:15:27,115 - #17 (
+INFO  16:15:27,115 - #18 )
+INFO  16:15:27,115 - #3 {
+INFO  16:15:27,116 - #13 x
+INFO  16:15:27,116 - #7 =
+INFO  16:15:27,117 - #13 x
+INFO  16:15:27,118 - #31 +
+INFO  16:15:27,120 - #10 23
+INFO  16:15:27,121 - #8 ;
+INFO  16:15:27,122 - #20 if
+INFO  16:15:27,123 - #17 (
+INFO  16:15:27,123 - #13 x
+INFO  16:15:27,123 - #38 ==
+INFO  16:15:27,123 - #10 3
+INFO  16:15:27,126 - #18 )
+INFO  16:15:27,131 - #13 x
+INFO  16:15:27,131 - #26 ++
+INFO  16:15:27,131 - #8 ;
+INFO  16:15:27,131 - #4 }
+INFO  16:15:27,132 - #4 }
+INFO  16:15:27,134 - Program(
+  NoNamespaces(
+  ) [NoNamespaces]
+  Decls(
+    NoDecls(
+    ) [NoDecls]
+    VarDeclaration(
+      VariableDecl(
+        VarDecls(
+          SignleVarDecl(
+            Type(
+            ) [Type]
+            Variable(
+            ) [Variable]
+          ) [SignleVarDecl]
+          Variable(
+          ) [Variable]
+        ) [VarDecls]
+      ) [VariableDecl]
+    ) [VarDeclaration]
+  ) [Decls]
+  MethodDecls(
+    NoMethods(
+    ) [NoMethods]
+    VoidMethod(
+      WithoutFormParams(
+      ) [WithoutFormParams]
+      NoOptionalVarDecls(
+      ) [NoOptionalVarDecls]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStatementClass(
+            AssignValue(
+              DesignatorWithoutScopeResolution(
+                NoFieldNoIndexing(
+                ) [NoFieldNoIndexing]
+              ) [DesignatorWithoutScopeResolution]
+              Assign(
+              ) [Assign]
+              ExprWithoutMinus(
+                Term(
+                  Function(
+                    DesignatorWithoutScopeResolution(
+                      NoFieldNoIndexing(
+                      ) [NoFieldNoIndexing]
+                    ) [DesignatorWithoutScopeResolution]
+                    NoCall(
+                    ) [NoCall]
+                  ) [Function]
+                  NoMulFactor(
+                  ) [NoMulFactor]
+                ) [Term]
+                AddOpTerm(
+                  NoAddOpTerm(
+                  ) [NoAddOpTerm]
+                  Plus(
+                  ) [Plus]
+                  Term(
+                    FactorNumConst(
+                    ) [FactorNumConst]
+                    NoMulFactor(
+                    ) [NoMulFactor]
+                  ) [Term]
+                ) [AddOpTerm]
+              ) [ExprWithoutMinus]
+            ) [AssignValue]
+          ) [DesignatorStatementClass]
+        ) [Statements]
+        IfStatement(
+          Condition(
+            CondTerm(
+              CondFactWithMultipleExpr(
+                ExprWithoutMinus(
+                  Term(
+                    Function(
+                      DesignatorWithoutScopeResolution(
+                        NoFieldNoIndexing(
+                        ) [NoFieldNoIndexing]
+                      ) [DesignatorWithoutScopeResolution]
+                      NoCall(
+                      ) [NoCall]
+                    ) [Function]
+                    NoMulFactor(
+                    ) [NoMulFactor]
+                  ) [Term]
+                  NoAddOpTerm(
+                  ) [NoAddOpTerm]
+                ) [ExprWithoutMinus]
+                Equals(
+                ) [Equals]
+                ExprWithoutMinus(
+                  Term(
+                    FactorNumConst(
+                    ) [FactorNumConst]
+                    NoMulFactor(
+                    ) [NoMulFactor]
+                  ) [Term]
+                  NoAddOpTerm(
+                  ) [NoAddOpTerm]
+                ) [ExprWithoutMinus]
+              ) [CondFactWithMultipleExpr]
+              NoAndCondFact(
+              ) [NoAndCondFact]
+            ) [CondTerm]
+            NoOrCondTerm(
+            ) [NoOrCondTerm]
+          ) [Condition]
+          DesignatorStatementClass(
+            IncrementDesignator(
+              DesignatorWithoutScopeResolution(
+                NoFieldNoIndexing(
+                ) [NoFieldNoIndexing]
+              ) [DesignatorWithoutScopeResolution]
+            ) [IncrementDesignator]
+          ) [DesignatorStatementClass]
+        ) [IfStatement]
+      ) [Statements]
+    ) [VoidMethod]
+  ) [MethodDecls]
+) [Program]
+INFO  16:15:27,134 - ===================================
+INFO  16:15:27,137 -  Print count calls = 0
+INFO  16:15:27,137 -  Deklarisanih promenljivih ima = 2

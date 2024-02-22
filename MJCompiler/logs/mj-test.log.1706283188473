@@ -1,0 +1,124 @@
+INFO  16:32:30,508 - Compiling source file: C:\projekat\workspace\MJCompiler\test\program.mj
+INFO  16:32:30,539 - #2 program
+INFO  16:32:30,539 - #13 MJProgram
+INFO  16:32:30,540 - #13 int
+INFO  16:32:30,540 - #13 x
+INFO  16:32:30,541 - #9 ,
+INFO  16:32:30,541 - #13 y
+INFO  16:32:30,541 - #8 ;
+INFO  16:32:30,541 - #3 {
+INFO  16:32:30,542 - #19 void
+INFO  16:32:30,542 - #13 main
+INFO  16:32:30,542 - #17 (
+INFO  16:32:30,542 - #18 )
+INFO  16:32:30,542 - #3 {
+INFO  16:32:30,543 - #13 x
+INFO  16:32:30,543 - #7 =
+INFO  16:32:30,544 - #13 x
+INFO  16:32:30,544 - #31 +
+INFO  16:32:30,545 - #10 23
+INFO  16:32:30,546 - #8 ;
+INFO  16:32:30,547 - #20 if
+INFO  16:32:30,547 - #17 (
+INFO  16:32:30,547 - #13 x
+INFO  16:32:30,547 - #38 ==
+INFO  16:32:30,548 - #26 ++
+ERROR 16:32:30,548 - 
+Sintaksna greska na liniji 6
+INFO  16:32:30,548 - #10 3
+INFO  16:32:30,548 - #18 )
+INFO  16:32:30,548 - #13 x
+INFO  16:32:30,549 - #26 ++
+INFO  16:32:30,549 - #8 ;
+ERROR 16:32:30,549 - Izvrsen oporavak do ) u liniji 6
+INFO  16:32:30,550 - #4 }
+INFO  16:32:30,550 - #4 }
+INFO  16:32:30,551 - Program(
+  NoNamespaces(
+  ) [NoNamespaces]
+  Decls(
+    NoDecls(
+    ) [NoDecls]
+    VarDeclaration(
+      VariableDecl(
+        VarDecls(
+          SignleVarDecl(
+            Type(
+            ) [Type]
+            Variable(
+            ) [Variable]
+          ) [SignleVarDecl]
+          Variable(
+          ) [Variable]
+        ) [VarDecls]
+      ) [VariableDecl]
+    ) [VarDeclaration]
+  ) [Decls]
+  MethodDecls(
+    NoMethods(
+    ) [NoMethods]
+    VoidMethod(
+      WithoutFormParams(
+      ) [WithoutFormParams]
+      NoOptionalVarDecls(
+      ) [NoOptionalVarDecls]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStatementClass(
+            AssignValue(
+              DesignatorWithoutScopeResolution(
+                NoFieldNoIndexing(
+                ) [NoFieldNoIndexing]
+              ) [DesignatorWithoutScopeResolution]
+              Assign(
+              ) [Assign]
+              ExprWithoutMinus(
+                Term(
+                  Function(
+                    DesignatorWithoutScopeResolution(
+                      NoFieldNoIndexing(
+                      ) [NoFieldNoIndexing]
+                    ) [DesignatorWithoutScopeResolution]
+                    NoCall(
+                    ) [NoCall]
+                  ) [Function]
+                  NoMulFactor(
+                  ) [NoMulFactor]
+                ) [Term]
+                AddOpTerm(
+                  NoAddOpTerm(
+                  ) [NoAddOpTerm]
+                  Plus(
+                  ) [Plus]
+                  Term(
+                    FactorNumConst(
+                    ) [FactorNumConst]
+                    NoMulFactor(
+                    ) [NoMulFactor]
+                  ) [Term]
+                ) [AddOpTerm]
+              ) [ExprWithoutMinus]
+            ) [AssignValue]
+          ) [DesignatorStatementClass]
+        ) [Statements]
+        IfStatement(
+          ConditionDerived1(
+          ) [ConditionDerived1]
+          DesignatorStatementClass(
+            IncrementDesignator(
+              DesignatorWithoutScopeResolution(
+                NoFieldNoIndexing(
+                ) [NoFieldNoIndexing]
+              ) [DesignatorWithoutScopeResolution]
+            ) [IncrementDesignator]
+          ) [DesignatorStatementClass]
+        ) [IfStatement]
+      ) [Statements]
+    ) [VoidMethod]
+  ) [MethodDecls]
+) [Program]
+INFO  16:32:30,551 - ===================================
+INFO  16:32:30,556 -  Print count calls = 0
+INFO  16:32:30,556 -  Deklarisanih promenljivih ima = 2

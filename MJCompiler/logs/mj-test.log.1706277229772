@@ -1,0 +1,53 @@
+INFO  14:53:39,834 - Compiling source file: C:\projekat\workspace\MJCompiler\test\program.mj
+INFO  14:53:39,867 - #2 program
+INFO  14:53:39,867 - #13 MJProgram
+INFO  14:53:39,867 - #13 int
+INFO  14:53:39,868 - #13 x
+INFO  14:53:39,868 - #9 ,
+INFO  14:53:39,869 - #13 y
+INFO  14:53:39,869 - #8 ;
+INFO  14:53:39,869 - #3 {
+INFO  14:53:39,870 - #19 void
+INFO  14:53:39,870 - #13 main
+INFO  14:53:39,870 - #17 (
+INFO  14:53:39,870 - #18 )
+INFO  14:53:39,871 - #3 {
+INFO  14:53:39,871 - #4 }
+INFO  14:53:39,871 - #4 }
+INFO  14:53:39,872 - Program(
+  NoNamespaces(
+  ) [NoNamespaces]
+  Decls(
+    NoDecls(
+    ) [NoDecls]
+    VarDeclaration(
+      VariableDecl(
+        Type(
+        ) [Type]
+        Variable(
+        ) [Variable]
+        VarDecls(
+          NoVarDecls(
+          ) [NoVarDecls]
+          Variable(
+          ) [Variable]
+        ) [VarDecls]
+      ) [VariableDecl]
+    ) [VarDeclaration]
+  ) [Decls]
+  MethodDecls(
+    NoMethods(
+    ) [NoMethods]
+    VoidMethod(
+      WithoutFormParams(
+      ) [WithoutFormParams]
+      NoOptionalVarDecls(
+      ) [NoOptionalVarDecls]
+      NoStatements(
+      ) [NoStatements]
+    ) [VoidMethod]
+  ) [MethodDecls]
+) [Program]
+INFO  14:53:39,872 - ===================================
+INFO  14:53:39,874 -  Print count calls = 0
+INFO  14:53:39,874 -  Deklarisanih promenljivih ima = 2

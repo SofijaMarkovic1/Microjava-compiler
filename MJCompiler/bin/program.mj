@@ -1,0 +1,28 @@
+program MJProgram
+	int x, y;
+	int niz[];
+	int niz1[];
+	int niz2[];
+{
+	int k(int a, int b){
+		print(a);
+		print(b);
+		return a+b;
+	}
+	
+	bool vracaTrue(){
+		print('a');
+		return true;
+	}
+	bool vracaFalse(){
+		print('b');
+		return false;
+	}
+	
+	void main() int i, j; {
+		
+		x = 2;
+		if(vracaFalse()  || vracaTrue() && vracaTrue() ) print('m');
+		
+	}
+}

@@ -1,0 +1,294 @@
+package rs.ac.bg.etf.pp1;
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+	boolean errorDetected;
+	Logger log = Logger.getLogger(getClass());
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected=true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+	
+:}
+
+init with {:
+	errorDetected = false;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal PROGRAM, LEFT_BRACE, RIGHT_BRACE, NAMESPACE, CONST, ASSIGN, SEMI_COLON, COMMA;
+terminal COLON, LEFT_BRACKET, RIGHT_BRACKET, LEFT_PARENTHESIS, RIGHT_PARENTHESIS, VOID;
+terminal IF, BREAK, RETURN, READ, PRINT, FOR, INCREMENT, DECREMENT, MUL, DOT, MINUS, PLUS, CONTINUE;
+terminal DIV, MOD, NEW, OR, AND, EQUALS, NOT_EQUALS, GREATER, GREATER_EQUAL, LESS, LESS_EQUAL, ELSE, STATIC, EXTENDS, ARROW, CLASS;
+
+terminal String IDENT;
+terminal Integer NUM_CONST;
+terminal Integer BOOL_CONST;
+terminal Character CHAR_CONST;
+
+
+nonterminal NamespaceList, Namespace, DeclList, Decl, ConstDecl, ConstAssignementList, CallStart;
+nonterminal VarDecl, VarDeclList, MethodDeclList, ForStart, IfBody, ForBody, ForDesignator, ForBodyStart, ForDesignatorStart;
+nonterminal OptionalVarDecl, FormPars, Statement, DesignatorStatement, ForCondStart;
+nonterminal AssignOp, AddOp, FormParsEnd, NamespaceName, NamespaceEnd;
+nonterminal MulOp, OptionalCall, Call, ActPars, ExprList;
+nonterminal RelOp, OptionalDesignatorStatementList, DesignatorStatementList;
+nonterminal OptionalCondFact, StatementList, Label, FormParsList, OptionalDesignator, Else, MinusTerm, Or;
+
+
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgramName, Program, Variable, Assignment, MethodDecl, MethodTypeName, Designator, ArrayName, ArrayNameWithScopeResolution;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Term, Factor, Expr, MulFactorList, AddOpList, CondFact, CondTerm, AndList, Condition, OrList, DesignatorList;
+
+precedence left ELSE;
+
+Program ::= (Program) PROGRAM ProgramName:p NamespaceList DeclList LEFT_BRACE MethodDeclList RIGHT_BRACE;
+
+ProgramName ::= (ProgramName) IDENT:programName;
+
+NamespaceList ::= (Namespaces) NamespaceList Namespace
+					|
+					(NoNamespaces) /* epsilon */ 
+					;
+Namespace ::= (Namespace) NamespaceName  LEFT_BRACE DeclList LEFT_BRACE MethodDeclList RIGHT_BRACE NamespaceEnd;
+
+NamespaceName ::= (NamespaceName) NAMESPACE IDENT:name;
+
+NamespaceEnd ::= (NamespaceEnd) RIGHT_BRACE;
+
+DeclList ::= (Decls) DeclList Decl
+			| (NoDecls) /* epsilon */
+			;
+			
+Decl ::= (ConstDeclar) ConstDecl
+		| (VarDeclaration) VarDecl
+		;
+		
+ConstDecl ::= (ConstDeclaration) CONST Type:typeName ConstAssignementList SEMI_COLON;
+
+ConstAssignementList ::= (ConstAssignements) ConstAssignementList COMMA Assignment:assign
+						| (NoConstAssignements) Assignment:assign
+						;
+						
+					
+Type ::= (TypeWithoutScopeResolution) IDENT:typeName;
+		
+Assignment ::= (NumAssignment) IDENT:constName ASSIGN NUM_CONST:value
+			| (CharAssignment) IDENT:constName ASSIGN CHAR_CONST:value
+			| (BoolAssignment) IDENT:constName ASSIGN BOOL_CONST:value
+			;
+		
+VarDecl ::= (VariableDecl) Type:typeName VarDeclList SEMI_COLON
+		| error SEMI_COLON:l
+		{: parser.report_error("Izvrsen oporavak do ; u liniji " + lleft, null); :}
+		;
+
+Variable ::= (Var) IDENT:varName
+			| (Array) IDENT:varName LEFT_BRACKET RIGHT_BRACKET
+			;
+			
+VarDeclList ::= (VarDecls) VarDeclList COMMA Variable:varName
+			| (SignleVarDecl) Variable:varName
+			| error COMMA:l {: parser.report_error("Izvrsen oporavak do , u liniji " + lleft, null); :} Variable
+			;
+
+MethodDeclList ::= (MethodDecls) MethodDeclList MethodDecl
+				| (NoMethods) /* epsilon */
+				;
+
+MethodDecl ::= (MethodDeclaration) MethodTypeName:method LEFT_PARENTHESIS FormPars FormParsEnd OptionalVarDecl LEFT_BRACE StatementList RIGHT_BRACE
+			| MethodTypeName LEFT_PARENTHESIS error RIGHT_PARENTHESIS:l {: parser.report_error("Izvrsen oporavak do ) u liniji " + lleft, null); :}  OptionalVarDecl LEFT_BRACE StatementList RIGHT_BRACE
+			;
+
+FormParsEnd ::= (FormParsEnd)RIGHT_PARENTHESIS;
+
+MethodTypeName ::= (TypedMethod) Type:retType IDENT:methodName
+				| (VoidMethod) VOID IDENT:methodName
+				;
+
+OptionalVarDecl ::= (OptionalVarDecls) OptionalVarDecl VarDecl
+				| (NoOptionalVarDecls) /*epsilon*/
+				;
+					
+FormPars ::= (WithFormParams) FormParsList
+			| (WithoutFormParams) /* epsilon */
+			;
+
+FormParsList ::= (MultipleFormPars) FormParsList COMMA Type:type Variable:var
+				| error COMMA:l {: parser.report_error("Izvrsen oporavak do , u liniji " + lleft, null); :} Type:type Variable:var
+				| (SingleFormPar) Type:type Variable:var /*epsilon*/
+				;
+
+StatementList ::= (Statements) StatementList Statement
+				| (NoStatements) /*epsilon*/
+				;
+
+Statement ::= (DesignatorStatementClass) DesignatorStatement SEMI_COLON
+			| (IfElseStatement) IF Condition IfBody Else Statement
+			| (IfStatement) IF Condition IfBody
+			| (BreakStatement) BREAK SEMI_COLON
+			| (ContinueStatement) CONTINUE SEMI_COLON
+			| (ReturnStatement) RETURN SEMI_COLON
+			| (ReturnStatementWithExpr) RETURN Expr:expr SEMI_COLON
+			| (ReadStatement) READ LEFT_PARENTHESIS Designator:designator RIGHT_PARENTHESIS SEMI_COLON
+			| (PrintStatementWithNumConst) PRINT LEFT_PARENTHESIS Expr:expr COMMA NUM_CONST:val RIGHT_PARENTHESIS SEMI_COLON
+			| (PrintStatementWithoutNumConst) PRINT LEFT_PARENTHESIS Expr:expr RIGHT_PARENTHESIS SEMI_COLON
+			| (ForStatement) ForStart LEFT_PARENTHESIS OptionalDesignatorStatementList ForCondStart OptionalCondFact ForDesignatorStart ForDesignator ForBodyStart ForBody
+			| (StatementBlock) LEFT_BRACE StatementList RIGHT_BRACE
+			| error SEMI_COLON:l {: parser.report_error("Izvrsen oporavak do ; u liniji " + lleft, null); :}
+			;
+IfBody ::= (IfBody) Statement;
+
+Else ::= (Else) ELSE;
+
+ForStart ::= (ForStart) FOR;
+
+ForBodyStart ::= (ForBodyStart) RIGHT_PARENTHESIS;
+
+ForBody ::= (ForBody) Statement;
+
+ForDesignatorStart ::= (ForDesignatorStart) SEMI_COLON;
+
+ForDesignator ::= (ForDesignator) OptionalDesignatorStatementList;
+
+ForCondStart ::= (ForCondStart) SEMI_COLON;
+
+DesignatorStatement ::= (AssignValue) Designator:variable AssignOp Expr:expr
+					| (FunctionCall) Designator:method Call
+					| (IncrementDesignator) Designator:variable INCREMENT
+					| (DecrementDesignator) Designator:variable DECREMENT
+					| (ArrayAssignement) LEFT_BRACKET DesignatorList MUL Designator:designator RIGHT_BRACKET ASSIGN Designator:assignedDesignator
+					;
+					
+DesignatorList ::= (DesignatorComma) DesignatorList OptionalDesignator COMMA
+				| (NoDesignatorList) /*epsilon*/
+				;
+OptionalDesignator ::= (WithDesignator) Designator:designator
+					| (WithoutDesignator) /* epsilon */
+					;
+					
+Designator ::= (DesignatorWithScopeResolution) IDENT:scope COLON COLON IDENT:name
+			| (DesignatorWithoutScopeResolution) IDENT:name
+			| (DesignatorWithScopeResolutionAndIndexing) ArrayNameWithScopeResolution LEFT_BRACKET Expr:expr RIGHT_BRACKET
+			| (DesignatorWithoutScopeResolutionAndIndexing) ArrayName LEFT_BRACKET Expr:expr RIGHT_BRACKET
+			;
+
+ArrayName ::= (ArrayName) IDENT:name;
+ArrayNameWithScopeResolution ::= (ArrayNameWithScopeResolution) IDENT:scope COLON COLON IDENT:name;
+
+AssignOp ::= (Assign) ASSIGN;
+
+
+Expr ::= (ExprWithMinus) MinusTerm AddOpList
+		| (ExprWithoutMinus) Term:term AddOpList
+		;
+
+MinusTerm ::= (MinusTerm) MINUS Term:term;
+		
+AddOpList ::= (AddOpTerm) AddOpList AddOp Term:term
+			| (NoAddOpTerm) /* epsilon */
+			;
+AddOp ::= (Plus) PLUS | (Minus) MINUS;
+
+Term ::= (Term) MulFactorList:mul;
+
+MulFactorList ::= (MulFactor) MulFactorList MulOp Factor:factor
+				| (NoMulFactor) Factor:factor /* epsilon */
+				;
+
+MulOp ::= (Mul) MUL | (Div) DIV | (Mod) MOD;
+
+Factor ::= (Function) Designator:method Call
+		| (FactorVariable) Designator:var
+		| (FactorNumConst) NUM_CONST:value
+		| (FactorCharConst) CHAR_CONST:value
+		| (FactorBoolConst) BOOL_CONST:value
+		| (ConstructorArray) NEW Type:arrayType LEFT_BRACKET Expr:expr RIGHT_BRACKET
+		| (ExprInParenthesis) LEFT_PARENTHESIS Expr:expr RIGHT_PARENTHESIS
+		;
+
+OptionalCall ::= (WithCall) Call
+				| (NoCall) /*epsilon*/
+				;
+
+Call ::= (CallWithActPars) CallStart ActPars RIGHT_PARENTHESIS
+		| (CallWithoutActPars) CallStart RIGHT_PARENTHESIS
+		;
+		
+CallStart ::= (CallStart) LEFT_PARENTHESIS;
+
+ActPars ::= (ActPars) ExprList;
+
+ExprList ::= (MultipleExpr) ExprList COMMA Expr:expr
+			| (SingleExpr) Expr:expr1 /*epsilon*/
+			;
+
+Condition ::= (ValidCondition) LEFT_PARENTHESIS OrList RIGHT_PARENTHESIS
+			| LEFT_PARENTHESIS error RIGHT_PARENTHESIS:l {: parser.report_error("Izvrsen oporavak do ) u liniji " + lleft, null); :}
+			;
+
+OrList ::= (OrCondTerm) OrList Or CondTerm
+		| (SingleCondTerm) CondTerm
+		;
+		
+Or ::= (Or) OR;
+
+CondTerm ::= (CondTerm) AndList;
+
+AndList ::= (AndCondFact) AndList AND CondFact
+		| (SingleCondFact) CondFact
+		;
+
+CondFact ::= (CondFactWithMultipleExpr) Expr:expr1 RelOp Expr:expr2
+		| (CondFactWithSingleExpr) Expr:expr
+		;
+		
+RelOp ::= (Equals) EQUALS | (NotEquals) NOT_EQUALS | (Greater) GREATER | (GreaterEqual) GREATER_EQUAL | (Less) LESS | (LessEqual) LESS_EQUAL;
+
+
+
+OptionalDesignatorStatementList ::= (WithDesignatorStatementList) DesignatorStatementList
+								| (WithoutDesignatorStatementList) /*epsilon*/
+								;
+
+DesignatorStatementList ::= (SingleDesignatorStatement) DesignatorStatement
+							| (MultipleDesignatorStatements) DesignatorStatementList COMMA DesignatorStatement
+							;
+							
+OptionalCondFact ::= (WithCondFact) CondFact
+					| (WithoutCondFact) /*epsilon*/
+					;
+				
+Label ::= (Label) IDENT;
+
+				
+				
+

@@ -1,0 +1,59 @@
+INFO  14:29:37,533 - Compiling source file: C:\projekat\workspace\MJCompiler\test\program.mj
+INFO  14:29:37,566 - #2 program
+INFO  14:29:37,566 - #13 MJProgram
+INFO  14:29:37,566 - #13 int
+INFO  14:29:37,567 - #13 x
+INFO  14:29:37,567 - #8 ;
+INFO  14:29:37,568 - #13 y
+INFO  14:29:37,569 - #8 ;
+ERROR 14:29:37,569 - 
+Sintaksna greska na liniji 2
+INFO  14:29:37,569 - #3 {
+INFO  14:29:37,569 - #19 void
+INFO  14:29:37,569 - #13 main
+ERROR 14:29:37,569 - Izvrsen oporavak do , u liniji 8
+INFO  14:29:37,570 - #17 (
+INFO  14:29:37,570 - #18 )
+INFO  14:29:37,570 - #3 {
+INFO  14:29:37,571 - #4 }
+INFO  14:29:37,571 - #4 }
+INFO  14:29:37,572 - Program(
+  NoNamespaces(
+  ) [NoNamespaces]
+  Decls(
+    Decls(
+      NoDecls(
+      ) [NoDecls]
+      VarDeclaration(
+        VariableDecl(
+          Type(
+          ) [Type]
+          Variable(
+          ) [Variable]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VariableDecl]
+      ) [VarDeclaration]
+    ) [Decls]
+    VarDeclaration(
+      VarDeclDerived1(
+        null
+      ) [VarDeclDerived1]
+    ) [VarDeclaration]
+  ) [Decls]
+  MethodDecls(
+    NoMethods(
+    ) [NoMethods]
+    VoidMethod(
+      WithoutFormParams(
+      ) [WithoutFormParams]
+      NoOptionalVarDecls(
+      ) [NoOptionalVarDecls]
+      NoStatements(
+      ) [NoStatements]
+    ) [VoidMethod]
+  ) [MethodDecls]
+) [Program]
+INFO  14:29:37,573 - ===================================
+INFO  14:29:37,575 -  Print count calls = 0
+INFO  14:29:37,575 -  Deklarisanih promenljivih ima = 1

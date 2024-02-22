@@ -1,0 +1,63 @@
+INFO  15:47:09,212 - Compiling source file: C:\projekat\workspace\MJCompiler\test\program.mj
+INFO  15:47:09,241 - #2 program
+INFO  15:47:09,241 - #13 MJProgram
+INFO  15:47:09,241 - #13 int
+INFO  15:47:09,242 - #13 x
+ERROR 15:47:09,242 - 
+Sintaksna greska na liniji 2
+INFO  15:47:09,242 - #9 ,
+INFO  15:47:09,242 - #13 y
+INFO  15:47:09,242 - #8 ;
+INFO  15:47:09,243 - #3 {
+ERROR 15:47:09,243 - Izvrsen oporavak do , u liniji 2
+INFO  15:47:09,243 - #19 void
+INFO  15:47:09,244 - #13 main
+INFO  15:47:09,244 - #17 (
+INFO  15:47:09,244 - #18 )
+INFO  15:47:09,244 - #3 {
+INFO  15:47:09,244 - #13 x
+INFO  15:47:09,245 - #7 =
+INFO  15:47:09,245 - #13 x
+INFO  15:47:09,246 - #26 ++
+ERROR 15:47:09,246 - 
+Sintaksna greska na liniji 5
+INFO  15:47:09,247 - #10 23
+INFO  15:47:09,247 - #8 ;
+INFO  15:47:09,247 - #4 }
+INFO  15:47:09,247 - #4 }
+ERROR 15:47:09,247 - Izvrsen oporavak do ; u liniji 5
+INFO  15:47:09,249 - Program(
+  NoNamespaces(
+  ) [NoNamespaces]
+  Decls(
+    NoDecls(
+    ) [NoDecls]
+    VarDeclaration(
+      VariableDecl(
+        VarDeclListDerived1(
+          Variable(
+          ) [Variable]
+        ) [VarDeclListDerived1]
+      ) [VariableDecl]
+    ) [VarDeclaration]
+  ) [Decls]
+  MethodDecls(
+    NoMethods(
+    ) [NoMethods]
+    VoidMethod(
+      WithoutFormParams(
+      ) [WithoutFormParams]
+      NoOptionalVarDecls(
+      ) [NoOptionalVarDecls]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        StatementDerived1(
+        ) [StatementDerived1]
+      ) [Statements]
+    ) [VoidMethod]
+  ) [MethodDecls]
+) [Program]
+INFO  15:47:09,249 - ===================================
+INFO  15:47:09,254 -  Print count calls = 0
+INFO  15:47:09,254 -  Deklarisanih promenljivih ima = 1
